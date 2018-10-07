@@ -619,10 +619,14 @@ html[xmlns] .slides {display: block;}
 .newsletter .block-title span {text-align: center; }
 .newsletter .block-content { min-height: 56px; margin: 0 auto; width: 100%; position: relative;}
 .newsletter .block-content .input-group  {display: block;}
-.newsletter .input-group-field { background:none; width: 300px; border:1px solid #3b3b3b; color: #969696; float:left; margin: 0 5px 10px 0; padding: 0 15px; letter-spacing: 0.02em; }
+.newsletter .input-group-field { background:rgba(0, 0, 0, 0.1); width: 300px; border:1px solid transparent; color: #969696; float:left; margin: 0 5px 10px 0; padding: 0 15px; letter-spacing: 0.02em; }
 .newsletter .input-group-btn { float:left; }
-.newsletter .input-group-btn > .btn { background: #3b3b3b; color:#fff; border:0; font-size: 11px; }
-.newsletter .input-group-btn > .btn:hover { background: #fff; color:#000; }
+.newsletter .input-group-btn > .btn { color:#fff; border:0; font-size: 11px; background: {{setting.primary_button_bg_color}};}
+.newsletter .input-group-btn > .btn:hover { 
+  background: #fff; 
+  color: #C6AD88; 
+  box-shadow: inset 0 0 0 2px #C6AD88;
+}
 
 /* contact page ------------------------------------------------------------------------- */
 #contact-us .breadcrumb { margin-bottom: 24px; }

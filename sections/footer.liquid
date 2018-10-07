@@ -2,21 +2,21 @@
   <div class="container">
     <div class="footer-top">
         <div class="row">
-          <div class="col-1 wow fadeInUp" data-wow-delay="{{ settings.time_lazy_load }}ms">
+          <div class="col-xs-6 col-md-2 wow fadeInUp" data-wow-delay="{{ settings.time_lazy_load }}ms">
             {% if section.settings.footer_title_1 != blank %}
               <h3>{% include 'multilang' with section.settings.footer_title_1 %}</h3>
             {% endif %}
-            {%- assign footer_linklist = section.settings.footer_linklist -%}
-            {% if linklists[footer_linklist].links.size > 0 %}
-              <ul>
-                {% for link in linklists[footer_linklist].links %}
-                  <li><a href="{{ link.url}}">{% include 'multilang' with link.title %}</a></li>
-                {% endfor %}
-              </ul>
+            {% if section.settings.location_code != blank %}
+              {% if settings.enable_multilang %}
+                <div class="location lang1">{{ section.settings.location_code | split: '|' | first }}</div>
+                <div class="location lang2">{{ section.settings.location_code | split: '|' | last }}</div>
+              {% else %}
+                <div class="location">{{ section.settings.location_code | split: '|' | first }}</div>
+              {% endif %}
             {% endif %}
           </div>
 
-          <div class="col-2 wow fadeInUp" data-wow-delay="{{ settings.time_lazy_load | times: 2 }}ms">
+          <div class="col-xs-6 col-md-2 col-md-push-8 wow fadeInUp" data-wow-delay="{{ settings.time_lazy_load | times: 2 }}ms">
             {% if section.settings.footer_title_2 != blank %}
               <h3>{% include 'multilang' with section.settings.footer_title_2 %}</h3>
             {% endif %}
@@ -30,32 +30,20 @@
             {% endif %}
           </div>
 
-          <div class="col-3 wow fadeInUp" data-wow-delay="{{ settings.time_lazy_load | times: 3 }}ms">
-            {% if section.settings.footer_title_3 != blank %}
-              <h3>{% include 'multilang' with section.settings.footer_title_3 %}</h3>
-            {% endif %}
-            {%- assign footer_linklist_3 = section.settings.footer_linklist_3 -%}
-            {% if linklists[footer_linklist_3].links.size > 0 %}
-              <ul>
-                {% for link in linklists[footer_linklist_3].links %}
-                  <li><a href="{{ link.url}}">{% include 'multilang' with link.title %}</a></li>
-                {% endfor %}
-              </ul>
+          <div class="col-xs-12 col-md-5 col-md-pull-2 wow fadeInUp" data-wow-delay="{{ settings.time_lazy_load | times: 3 }}ms">
+            {% if section.settings.footer_newsletter_enable %}
+              <h3 >{% include 'multilang' with section.settings.footer_newsletter_title %}</h3>
+              <p>{% include 'multilang' with section.settings.footer_newsletter_text %}</p>
+              {% include 'homepage-block-newsletter' %}
             {% endif %}
           </div>
-          <div class="col-4 wow fadeInUp last" data-wow-delay="{{ settings.time_lazy_load | times: 5 }}ms">
+          <div class="col-xs-12 col-md-3 col-md-pull-2 wow fadeInUp" data-wow-delay="{{ settings.time_lazy_load | times: 5 }}ms">
             {% if section.settings.footer_social_enable %}
-            <div class="footer-social">
-              {% if section.settings.footer_social_title != blank %}
-              <h3>{% include 'multilang' with section.settings.footer_social_title %}</h3>
-               {% endif %}
-              {% include 'social-media' %}
-            </div>
-            {% endif %}
-            {% if section.settings.footer_newsletter_enable %}
-            <div class="footer-newsletter">
-              <h3 >{% include 'multilang' with section.settings.footer_newsletter_text %}</h3>
-              {% include 'homepage-block-newsletter' %}
+              <div class="footer-social">
+                {% if section.settings.footer_social_title != blank %}
+                  <h3>{% include 'multilang' with section.settings.footer_social_title %}</h3>
+                {% endif %}
+                {% include 'social-media' %}
             </div>
             {% endif %}
           </div>
@@ -99,7 +87,7 @@
   {
     "name": "Footer",
     "settings": [
-	{
+	   {
         "type": "header",
         "content": "Footer Background"
       },
@@ -241,10 +229,9 @@
         "label": "Footer 1 Title"
       },
       {
-        "type": "link_list",
-        "id": "footer_linklist",
-        "label": "Footer Column 1",
-        "default": "footer"
+        "type": "textarea",
+        "id": "location_code",
+        "label": "Location Code"
       },
       {
         "type": "text",
@@ -257,16 +244,6 @@
         "label": "Footer Column 2"
       },
       {
-        "type": "text",
-        "id": "footer_title_3",
-        "label": "Footer 3 Title"
-      },
-      {
-        "type": "link_list",
-        "id": "footer_linklist_3",
-        "label": "Footer Column 3"
-      },
-	  {
         "type": "header",
         "content": "Social"
       },
@@ -276,17 +253,17 @@
         "label": "Show social media links?",
         "default": false
       },
-	  {
+      {
         "type": "text",
         "id": "footer_social_title",
         "label": "Footer Social Title"
       },
- 	  {
+      {
         "type": "textarea",
         "id": "fb_like_code",
         "label": "Facebook Like Code"
       },
-	 {
+      {
         "type": "header",
         "content": "Newsletter"
       },
@@ -298,10 +275,15 @@
       },
       {
         "type": "text",
+        "id": "footer_newsletter_title",
+        "label": "Footer Newsletter Title"
+      },
+      {
+        "type": "text",
         "id": "footer_newsletter_text",
         "label": "Footer Newsletter Text"
       },
-	 
+
       {
         "type": "header",
         "content": "Footer Address"
@@ -316,13 +298,13 @@
         "type": "header",
         "content": "Footer Payment"
       },
-		 {
+		  {
         "type": "checkbox",
         "id": "show_payment_icons",
         "label": "Show payment icons",
         "default": false
       },
- 	 {
+      {
         "type": "header",
         "content": "Display payment icons for"
       },
@@ -554,13 +536,12 @@
 	background-repeat: {{ section.settings.bg_footer_repeat }};
 	background-attachment: {{ section.settings.bg_footer_attachment }};
 }
+.footer-top .location{margin-bottom: 20px;}
 .footer-bottom { border-color: {{ section.settings.bg_footer_line_color }}; }
 .site-footer .text span,
 .footer-top h3 { color: {{ section.settings.footer_title_color }}; }
 .site-footer a,
 .footer-bottom address {color: {{ section.settings.footer_link_color }};}
-.site-footer a:hover { color: {{ section.settings.footer_title_color }}; }
-.site-footer .col-1 a:hover,
-.site-footer .col-2 a:hover,
-.site-footer .col-3 a:hover { border-bottom: 1px solid {{ section.settings.footer_title_color }}; }
+.site-footer a:hover { color: #C6AD88;}
+.site-footer a:hover { border-bottom: 1px solid #C6AD88; }
   </style>
