@@ -44,7 +44,7 @@
 
         {% if block.settings.custom_bottom_button != blank %}
         <a class="btn" href="{{ block.settings.custom_bottom_url }}">{% include 'multilang' with block.settings.custom_bottom_button %}
-        <span class="arrow">arrow</span>
+        {% comment %}<span class="arrow">arrow</span>{% endcomment %}
         </a>
         {% endif %}
       </div>

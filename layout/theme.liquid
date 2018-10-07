@@ -80,7 +80,10 @@
 
     {% include 'footer_scripts' %}
     {% include 'newsletter' %}
-    <div id="back-top" style="display: none;"><a class="nav_up" href="#top">Back to top</a></div>
+    <div id="back-top" style="display: none;">
+      <a class="nav_up sr-only" href="#top">Back to top</a>
+      <i class="fa fa-angle-up" aria-hidden="true"></i>
+    </div>
   </div>
 
   {% if settings.display_recently_viewed_products %}

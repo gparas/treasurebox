@@ -66,16 +66,16 @@
           {% if settings.enable_multilang %}
           <a href="{{ settings.three_banner_bottom_link_1 }}" title="{{ settings.three_banner_bottom_button_text_1 | split: '|' | first }}" class="btn lang1">
             {{ settings.three_banner_bottom_button_text_1 | split: '|' | first }}
-            <span class="arrow">arrow</span>
+            {% comment %}<span class="arrow">arrow</span>{% endcomment %}
           </a>        
           <a href="{{ settings.three_banner_bottom_link_1 }}" title="{{ settings.three_banner_bottom_button_text_1 | split: '|' | last }}" class="btn lang2">
             {{ settings.three_banner_bottom_button_text_1 | split: '|' | last }}
-            <span class="arrow">arrow</span>
+            {% comment %}<span class="arrow">arrow</span>{% endcomment %}
           </a>
           {% else %}
           <a href="{{ settings.three_banner_bottom_link_1 }}" title="{{ settings.three_banner_bottom_button_text_1 | split: '|' | first }}" class="btn">
             {{ settings.three_banner_bottom_button_text_1 | split: '|' | first }}
-            <span class="arrow">arrow</span>
+            {% comment %}<span class="arrow">arrow</span>{% endcomment %}
           </a>  
           {% endif %}
         {% endif %}
@@ -130,16 +130,16 @@
           {% if settings.enable_multilang %}
           <a href="{{ settings.three_banner_bottom_link_2 }}" title="{{ settings.three_banner_bottom_button_text_2 | split: '|' | first }}" class="btn lang1">
             {{ settings.three_banner_bottom_button_text_2 | split: '|' | first }}
-            <span class="arrow">arrow</span>
+            {% comment %}<span class="arrow">arrow</span>{% endcomment %}
           </a>
           <a href="{{ settings.three_banner_bottom_link_2 }}" title="{{ settings.three_banner_bottom_button_text_2 | split: '|' | last }}" class="btn lang2">
             {{ settings.three_banner_bottom_button_text_2 | split: '|' | last }}
-            <span class="arrow">arrow</span>
+            {% comment %}<span class="arrow">arrow</span>{% endcomment %}
           </a>
           {% else %}
           <a href="{{ settings.three_banner_bottom_link_2 }}" title="{{ settings.three_banner_bottom_button_text_2 | split: '|' | first }}" class="btn">
             {{ settings.three_banner_bottom_button_text_2 | split: '|' | first }}
-            <span class="arrow">arrow</span>
+            {% comment %}<span class="arrow">arrow</span>{% endcomment %}
           </a>
           {% endif %}
         {% endif %}
@@ -194,16 +194,16 @@
           {% if settings.enable_multilang %}
           <a href="{{ settings.three_banner_bottom_link_3 }}" title="{{ settings.three_banner_bottom_button_text_3 | split: '|' | first }}" class="btn lang1">
             {{ settings.three_banner_bottom_button_text_3 | split: '|' | first }}
-            <span class="arrow">arrow</span>
+            {% comment %}<span class="arrow">arrow</span>{% endcomment %}
           </a>
           <a href="{{ settings.three_banner_bottom_link_3 }}" title="{{ settings.three_banner_bottom_button_text_3 | split: '|' | last }}" class="btn lang2">
             {{ settings.three_banner_bottom_button_text_3 | split: '|' | last }}
-            <span class="arrow">arrow</span>
+            {% comment %}<span class="arrow">arrow</span>{% endcomment %}
           </a>
           {% else %}
           <a href="{{ settings.three_banner_bottom_link_3 }}" title="{{ settings.three_banner_bottom_button_text_3 | split: '|' | first }}" class="btn">
             {{ settings.three_banner_bottom_button_text_3 | split: '|' | first }}
-            <span class="arrow">arrow</span>
+            {% comment %}<span class="arrow">arrow</span>{% endcomment %}
           </a>
           {% endif %}
         {% endif %}

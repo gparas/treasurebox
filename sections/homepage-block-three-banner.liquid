@@ -1,5 +1,21 @@
 {% if section.settings.display_three_block_banner %}
 <div class="banner-home-top container">
+  {% if section.settings.product_list_title != blank %}
+  <div class="widget-title wow fadeIn">
+    {% if settings.enable_multilang %}
+    <fieldset class="box-title lang1">
+      <legend align="center">{{ section.settings.product_list_title | split: '|' | first }}</legend>
+    </fieldset>
+    <fieldset class="box-title lang2">
+      <legend align="center">{{ section.settings.product_list_title | split: '|' | last }}</legend>
+    </fieldset>
+    {% else %}
+    <fieldset class="box-title">
+      <legend align="center">{{ section.settings.product_list_title | split: '|' | first }}</legend>
+    </fieldset>
+    {% endif %}
+  </div>
+  {% endif %}
   <ul class="row">
     {% for block in section.blocks %}
     <li class="col-xs-12 col-sm-4 wow fadeInUp" data-wow-delay="{{ settings.time_lazy_load }}ms">
@@ -30,8 +46,13 @@
         "id": "display_three_block_banner",
         "label": "Enable",
         "default": true
+      },
+      {
+        "type": "text",
+        "id": "product_list_title",
+        "label": "Title",
+        "default": "Shop"
       }
-
     ],
     "blocks": [
       {

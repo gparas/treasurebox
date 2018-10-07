@@ -26,7 +26,7 @@
      {% if section.settings.banner_button_text != blank %}
         <a href="{{ section.settings.banner_button_link }}" class="btn">
           {% include 'multilang' with section.settings.banner_button_text %}
-          <span class="arrow">arrow</span>
+          {% comment %}<span class="arrow">arrow</span>{% endcomment %}
         </a>
       {% endif %}
       </div>
