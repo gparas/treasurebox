@@ -16,7 +16,7 @@
               {%- assign img_url = block.settings.image | img_url: '2000x' -%}
               <img src="{{ img_url }}" data-url="{{ block.settings.link }}" class="slide-img " alt="{{ block.settings.image.alt }}" />
               
-              {% if block.settings.title != blank  %}
+              {% comment %}{% if block.settings.title != blank  %}
               <h2 class="slide-heading animated visible-xs"
                   style="{% if block.settings.heading_size != blank %}
                          font-size: {{ block.settings.heading_size }}px;
@@ -26,7 +26,7 @@
                          {% endif %}">
                 {% include 'multilang' with block.settings.title  %}
               </h2>
-              {% endif %}
+              {% endif %}{% endcomment %}
             </a>
              {% else %}
               {% capture current %}{% cycle 1, 2 %}{% endcapture %}
@@ -101,7 +101,7 @@
                            left: initial;
                            {% endif %}
                           ">
-                <h2 class="slide-heading animated hidden-xs"
+                <h2 class="slide-heading animated"
                     style="{% if block.settings.heading_size != blank %}
                            font-size: {{ block.settings.heading_size }}px;
                            {% endif %}

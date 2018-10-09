@@ -1,0 +1,51 @@
+<div class="row">
+  <div class="{% if section.settings.banner != blank %}col-sm-7 col-sm-push-5{% else %}col-xs-12{% endif %}">
+    {% if settings.enable_multilang %}
+      <div class="rte lang1">
+        <div class="about-page-article">
+          {{ page.content | split: '[lang2]' | first }}
+        </div>
+      </div>
+      <div class="rte lang2">
+        <div class="about-page-article">
+          {{ page.content | split: '[lang2]' | last }}
+        </div>
+      </div>
+      {% else %}
+      <div class="rte">
+        <div class="about-page-article">
+          {{ page.content | split: '[lang2]' | first }}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+  {% if section.settings.banner != blank %}
+    <div class="col-sm-5 col-sm-pull-7">
+      {%- assign img_url = section.settings.banner | img_url: '2000x' -%}
+      <img class="about-page-img" src="{{ img_url }}"  alt="treasurebox - {{page.title}}" />
+    </div>
+  {% endif %}
+</div>
+
+{% schema %}
+  {
+    "name": "About Page",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "banner",
+        "label": "Banner Image"
+      }
+    ]
+  }
+{% endschema %}
+
+<style>
+ .about-page-article{
+    font-size: 14px;
+    line-height: 1.5;
+ }
+ .about-page-img{
+    margin-bottom: 20px;
+ }
+</style>

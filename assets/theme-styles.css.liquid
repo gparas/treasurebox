@@ -604,8 +604,6 @@ html[xmlns] .slides {display: block;}
 .footer-top .footer-social ul.social-icons { list-style: none; padding: 0;  }
 .footer-top .footer-social ul.social-icons li { display: inline-block; padding: 0; margin-right: 12px; }
 .footer-top .footer-social ul.social-icons li a {  color: #fff; display: block; width: 36px; height: 36px; line-height: 36px; text-align: center; border: 0; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
-.footer-top .footer-social ul.social-icons li a {background:#C6AD88;color:#fff;border: 1px solid #C6AD88;}
-.footer-top .footer-social ul.social-icons li a:hover{color:#C6AD88;background:#fff; border: 1px solid #C6AD88;}
 .footer-top h3 { color:#fff; text-transform: uppercase; font-size:12px; font-weight: 700; letter-spacing: 0.05em; margin-bottom: 16px; }
 .footer-bottom { border-top: 1px solid #282828; padding-top: 25px; }
 .footer-bottom address { color: #969696; margin-bottom: 18px; line-height: 1.6; }
@@ -619,14 +617,8 @@ html[xmlns] .slides {display: block;}
 .newsletter .block-title span {text-align: center; }
 .newsletter .block-content { min-height: 56px; margin: 0 auto; width: 100%; position: relative;}
 .newsletter .block-content .input-group  {display: block;}
-.newsletter .input-group-field { background:rgba(0, 0, 0, 0.1); width: 300px; border:1px solid transparent; color: #969696; float:left; margin: 0 5px 10px 0; padding: 0 15px; letter-spacing: 0.02em; }
+.newsletter .input-group-field { width: 300px; float: left; margin: 0 5px 10px 0; padding: 0 15px; letter-spacing: 0.02em; }
 .newsletter .input-group-btn { float:left; }
-.newsletter .input-group-btn > .btn { color:#fff; border:0; font-size: 11px; background: {{setting.primary_button_bg_color}};}
-.newsletter .input-group-btn > .btn:hover { 
-  background: #fff; 
-  color: #C6AD88; 
-  box-shadow: inset 0 0 0 2px #C6AD88;
-}
 
 /* contact page ------------------------------------------------------------------------- */
 #contact-us .breadcrumb { margin-bottom: 24px; }
@@ -709,10 +701,11 @@ html[xmlns] .slides {display: block;}
 .close-modal { padding:0; height: 29px; width: 29px; position: absolute; right: -15px; top: -15px; z-index: 9; text-indent: -999em; border:0; background:url(icons_new14.png ) 0 -877px #000; cursor: pointer; filter:alpha(opacity=100); opacity:1; filter:alpha(opacity=100); /* For IE8 and earlier */-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* IE8 */}
 #email-modal .window-window .window-content .btn.close:hover,
 .close-window:hover,
-.close-modal:hover { background-color: #e95144;}
+.close-modal:hover { background-color: #C6AD88;}
 #email-modal .window-window .window-content .title { font-size:20px; position: relative; letter-spacing: 0.05em; margin-bottom: 8px; }
 #email-modal .window-window .window-content .sub-title { margin-bottom: 15px; letter-spacing: 0.05em; color: #555555; }
 #email-modal .window-window .window-content .message {clear: both;  padding: 15px 0 23px; margin-bottom: 0px; letter-spacing: 0.02em; font-size: 11px; font-weight: 700; text-transform: uppercase; line-height: 20px; }
+
 
 /* MAIL CHIMP FORM INPUTS ---------------------------------------------------------- */
 #mce-EMAIL { border:1px solid #000; color:#333; font:11px arial, sans-serif; height:11px; margin:0 !important; padding:8px !important; width:217px; }
@@ -1191,7 +1184,13 @@ label[for="productSelect"] {margin-bottom: 10px;}
 .ajax-success-modal .continue-shopping{ margin-right: 12px; padding: 0 20px; }
 .ajax-success-modal .btn-secondary { padding: 0 20px; margin-bottom: 10px; }
 
-.success-message { background: #f5f8f3 url(icons_new14.png ) 20px -1476px no-repeat; height: 40px; line-height: 40px; color: #5f943c; padding: 0 10px 0 40px; margin-bottom: 20px; border-bottom: 1px solid #dde8d6; }
+.success-message { position: relative; background: #f6f3ee; height: 40px; line-height: 40px; color: #C6AD88; padding: 0 10px 0 40px; margin-bottom: 20px; border-bottom: 1px solid #C6AD88; }
+.success-message:before{
+  content: "\f00c";
+  font-family: FontAwesome;
+  position: absolute;
+  left: 14px;
+}
 .ajax-product-title { text-align: left; margin-bottom: 9px; }
 
 /* animate */

@@ -205,6 +205,16 @@
       },
       {
         "type": "header",
+        "content": "Footer Button Color"
+      },
+      {
+        "type": "color",
+        "id": "bg_footer_button_color",
+        "label": "Footer Button Color",
+        "default": "#282828"
+      },
+      {
+        "type": "header",
         "content": "Text Color"
       },
       {
@@ -542,6 +552,43 @@
 .footer-top h3 { color: {{ section.settings.footer_title_color }}; }
 .site-footer a,
 .footer-bottom address {color: {{ section.settings.footer_link_color }};}
-.site-footer a:hover { color: #C6AD88;}
-.site-footer a:hover { border-bottom: 1px solid #C6AD88; }
+.site-footer a:hover { color: {{ section.settings.footer_title_color }};}
+.site-footer a:hover { border-bottom: 1px solid {{ section.settings.footer_title_color }}; }
+.footer-top .footer-social ul.social-icons li a {
+  color: {{ section.settings.bg_footer_color }};
+  background: {{ section.settings.bg_footer_button_color }};
+  border: 1px solid {{ section.settings.bg_footer_button_color }};
+}
+.footer-top .footer-social ul.social-icons li a:hover{
+  background: #fff;
+  color: {{ section.settings.bg_footer_button_color }};
+  border: 1px solid {{ section.settings.bg_footer_button_color }};
+  box-shadow: inset 0 0 0 1px {{ section.settings.bg_footer_button_color }};
+}
+.newsletter .input-group-field { 
+  background: none;
+  color: {{ section.settings.footer_title_color }};
+  border: 1px solid {{ section.settings.bg_footer_button_color }};
+}
+.newsletter .input-group-field::-moz-placeholder {
+  color: rgba(0,0,0,0.3);
+  opacity: 1;
+}
+.newsletter .input-group-field:-ms-input-placeholder {
+  color: rgba(0,0,0,0.3);
+}
+.newsletter .input-group-field::-webkit-input-placeholder {
+  color: rgba(0,0,0,0.3);
+}
+.newsletter .input-group-btn > .btn {
+  border: 0;
+  font-size: 11px;
+  color: {{ section.settings.bg_footer_color }};
+  background: {{ section.settings.bg_footer_button_color }};
+}
+.newsletter .input-group-btn > .btn:hover { 
+  background: #fff; 
+  color: {{ section.settings.bg_footer_button_color }}; 
+  box-shadow: inset 0 0 0 2px {{ section.settings.bg_footer_button_color }};
+}
   </style>

@@ -26,14 +26,14 @@
     {% if section.settings.display_instagram_button and section.settings.instagram_button_text != blank %}
       {% if settings.enable_multilang %}
       <a href="{{ section.settings.instagram_button_link }}" title="{{ section.settings.instagram_button_text | split: '|' | first }}" class="btn lang1">
-        {{ section.settings.instagram_button_text | split: '|' | first }}<span class="arrow">arrow</span>
+        {{ section.settings.instagram_button_text | split: '|' | first }}
       </a>    
       <a href="{{ section.settings.instagram_button_link }}" title="{{ section.settings.instagram_button_text | split: '|' | last }}" class="btn lang2">
-        {{ section.settings.instagram_button_text | split: '|' | last }}<span class="arrow">arrow</span>
+        {{ section.settings.instagram_button_text | split: '|' | last }}
       </a>
       {% else %}
       <a href="{{ section.settings.instagram_button_link }}" title="{{ section.settings.instagram_button_text | split: '|' | first }}" class="btn">
-        {{ section.settings.instagram_button_text | split: '|' | first }}<span class="arrow">arrow</span>
+        {{ section.settings.instagram_button_text | split: '|' | first }}
       </a> 
       {% endif %}
     {% endif %}

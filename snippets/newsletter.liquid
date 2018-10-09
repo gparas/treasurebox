@@ -87,14 +87,14 @@ jQuery(document).ready(function() {    //
             </div>
             {% endif %}
           </div>
-          <div class="right">
+          {% comment %}<div class="right">
             {% if settings.newsletter != blank %}
             {%- assign img_url = settings.newsletter | img_url: '2000x2000' -%}
             <img src="{{ img_url }}" alt="">
             {% else %}	
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
             {% endif %}
-          </div>
+          </div>{% endcomment %}
         </div>
       </div>
     </div>

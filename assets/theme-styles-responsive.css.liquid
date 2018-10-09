@@ -491,7 +491,7 @@
 }
 
 @media (max-width: 360px) {
-  .newsletter .input-group-field { width: 100%; }
+  /*.newsletter .input-group-field { width: 100%; }*/
   .infinite-scrolling a, .infinite-scrolling-homepage a { width: 100%; }
   .button .btn { padding: 0 10px; }
   .products-grid .product-item .btn{padding:0px 8px;}
@@ -695,7 +695,7 @@
     box-shadow: none;
     border: none;
     top:100%;
-    background: #f3efe1;
+    background: #f6f3ee;
   }
   .hd_mobile .dropdown-menu ul li{
     margin-bottom:10px;
@@ -1252,7 +1252,7 @@
     width: 23px;
   }
   .hd_mobile .search_mobile:hover{
-    background:#f3efe1;
+    background:#f6f3ee;
   }
   .header-bottom .search-bar .input-group-btn button.btn{
     position:static;
@@ -1461,8 +1461,9 @@
     background:none;;
   }
   .slide-heading span{
-    background: rgba(255, 255, 255, 0.88);
+    /*background: rgba(255, 255, 255, 0.88);*/
     padding: 10px 15px;
+    color: #010101!important;
   }
   .home-slideshow .slider-content{
     position: static;
@@ -1471,17 +1472,17 @@
     -webkit-transform: none;
   }
   .home-slideshow  .link_img .slide-heading{
-    position: absolute;
+    /*position: absolute;
     top: 40%;
     z-index: 99;
     left: 0;
-    right: 0;
+    right: 0;*/
     margin: 0 auto;
     text-align: center;
     width: auto;
-    -webkit-transform: translateY(-50%);
+    -we/*bkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    tra*/nsform: translateY(-50%);
   }
   .slide-text{
     display:block;
@@ -1781,5 +1782,28 @@
 @media (min-width:1024px){
   .sidebar{
     display:block!important;
+  }
+}
+
+@media screen and (min-width: 800px){
+
+  #email-modal .window-window:before{
+    content: '';
+    display: block;
+    background: url({{ 'newsletter.png' | asset_url }});
+    background-size: cover;
+    width: 768px;
+    height: 430px;
+    position: absolute;
+    top: -130px;
+    background-position: right;
+  }
+  #email-modal .window-window .window-content {background: transparent;}
+  #email-modal .window-window .window-content .btn.close {display: none;}
+  #email-modal .window-window .window-content .left{width: 528px;padding: 68px 30px 30px 50px;}
+  #email-modal #mc_embed_signup .input-group-btn .btn{
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
   }
 }
