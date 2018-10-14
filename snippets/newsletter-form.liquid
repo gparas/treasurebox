@@ -1,16 +1,28 @@
-{% comment %}
-
-  MailChimp is the go-to newsletter service for Shopify.
-  Use the link below to find your MailChimp "form action"
-  and insert it in your site settings.
-
-  MailChimp newsletter integration and requirement:
-   - http://docs.shopify.com/support/configuration/store-customization/where-do-i-get-my-mailchimp-form-action
-
-{% endcomment %}
-<form action="{{ settings.mailing_list_form_action }}" method="post" name="mc-embedded-subscribe-form" target="_blank" class="input-group">
-  <input type="email" value="" {% if settings.enable_multilang %}data-translate="general.newsletter_form.newsletter_text" translate-item="placeholder"{%endif%}  placeholder="{{ 'general.newsletter_form.newsletter_text' | t }}" name="EMAIL" class="input-group-field" aria-label="Email Address">
-  <span class="input-group-btn">
-    <input type="submit" class="btn" value="{{ 'general.newsletter_form.submit' | t }}" name="subscribe" {% if settings.enable_multilang %}data-translate="general.newsletter_form.submit"{% endif %}>
-  </span>
-</form>
+{% form 'customer' %}
+  {{ form.errors | default_errors }}
+  {% if form.posted_successfully? %}
+    <p class="form--success">{{ 'general.newsletter_form.confirmation' | t }}</p>
+  {% else %}
+    <div class="input-group">
+      <input type="hidden" name="contact[tags]" value="newsletter">
+      <input type="email"
+        name="contact[email]"
+        id="Email"
+        class="input-group-field"
+        value="{% if customer %}{{ customer.email }}{% endif %}"
+        placeholder="{{ 'general.newsletter_form.newsletter_text' | t }}"
+        autocorrect="off"
+        autocapitalize="off">
+      <span class="input-group-btn">
+        <button type="submit" class="btn" name="commit" id="Subscribe">
+          {{ 'general.newsletter_form.submit' | t }}
+        </button>
+      </span>
+    </div>
+    <div class="checkbox" style="clear: both;">
+      <input type="hidden" name="customer[accepts_terms]" value="" />
+      <input type="checkbox" name="customer[accepts_terms]" required/>
+      <span {% if settings.enable_multilang %}data-translate="general.newsletter_form.newsletter_terms_html"{%endif%}>{{ 'general.newsletter_form.newsletter_terms_html' | t }}</span>
+    </div>
+  {% endif %}
+{% endform %}

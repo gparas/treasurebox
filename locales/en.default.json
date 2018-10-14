@@ -18,7 +18,9 @@
     "newsletter_form": {
       "newsletter_email": "your-email@example.com",
       "submit": "Subscribe",
-      "newsletter_text": "enter your email address"
+      "newsletter_text": "enter your email address",
+      "confirmation": "Thanks for subscribing",
+      "newsletter_terms_html": "I have read and accept the <a href=\"\/pages\/terms-of-use\" target=\"_blank\">terms of use<\/a>"
     },
     "search": {
       "no_results_html": "Your search for \"{{ terms }}\" did not yield any results.",
@@ -171,7 +173,8 @@
       "placeholder_message": "Please leave your comment here",
       "send": "Send",
       "submit_contact": "Submit Contact",
-      "post_success": "Thanks for contacting us. We'll get back to you as soon as possible."
+      "post_success": "Thanks for contacting us. We'll get back to you as soon as possible.",
+      "terms_html": "I have read and accept the <a href=\"\/pages\/terms-of-use\" target=\"_blank\">terms of use<\/a> and <a href=\"\/pages\/privacy-policy\" target=\"_blank\">privacy policy<\/a>."
     }
   },
   "customer": {

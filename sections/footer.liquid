@@ -34,7 +34,7 @@
             {% if section.settings.footer_newsletter_enable %}
               <h3 >{% include 'multilang' with section.settings.footer_newsletter_title %}</h3>
               <p>{% include 'multilang' with section.settings.footer_newsletter_text %}</p>
-              {% include 'homepage-block-newsletter' %}
+              {% include 'homepage-block-newsletter'%}
             {% endif %}
           </div>
           <div class="col-xs-12 col-md-3 col-md-pull-2 wow fadeInUp" data-wow-delay="{{ settings.time_lazy_load | times: 5 }}ms">
@@ -293,7 +293,6 @@
         "id": "footer_newsletter_text",
         "label": "Footer Newsletter Text"
       },
-
       {
         "type": "header",
         "content": "Footer Address"
