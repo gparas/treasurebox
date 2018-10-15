@@ -1786,7 +1786,13 @@
 }
 
 @media screen and (min-width: 800px){
-
+  #email-modal .window-window{
+    width: 768px;
+    height: 430px;
+  }
+  #email-modal .window-window .btn.close{
+    top: -55px;
+  }
   #email-modal .window-window:before{
     content: '';
     display: block;
@@ -1799,7 +1805,7 @@
     background-position: right;
   }
   #email-modal .window-window .window-content {background: transparent;}
-  #email-modal .window-window .window-content .btn.close {display: none;}
+  #email-modal .window-window .window-content .btn.close {right: 0;}
   #email-modal .window-window .window-content .left{width: 528px;padding: 68px 30px 30px 50px;}
   #email-modal #mc_embed_signup .input-group-btn .btn{
     background-color: #333;

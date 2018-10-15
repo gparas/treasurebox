@@ -15,14 +15,14 @@
     </button>
 
     <ul class="dropdown-menu" role="menu">
-      <li class="active"><span data-href="manual" {% if settings.enable_multilang %}data-translate="collections.sorting.featured"{% endif %}>{{ 'collections.sorting.featured' | t }}</span></li>
+      <li class="active"><span data-href="best-selling" {% if settings.enable_multilang %}data-translate="collections.sorting.best_selling"{% endif %}>{{ 'collections.sorting.best_selling' | t }}</span></li>
+      <li><span data-href="created-descending" {% if settings.enable_multilang %}data-translate="collections.sorting.date_descending"{% endif %}>{{ 'collections.sorting.date_descending' | t }}</span></li>
       <li><span data-href="price-ascending" {% if settings.enable_multilang %}data-translate="collections.sorting.price_ascending"{% endif %}>{{ 'collections.sorting.price_ascending' | t }}</span></li>
       <li><span data-href="price-descending" {% if settings.enable_multilang %}data-translate="collections.sorting.price_descending"{% endif %}>{{ 'collections.sorting.price_descending' | t }}</span></li>
-      <li><span data-href="title-ascending" {% if settings.enable_multilang %}data-translate="collections.sorting.az"{% endif %}>{{ 'collections.sorting.az' | t }}</span></li>
-      <li><span data-href="title-descending" {% if settings.enable_multilang %}data-translate="collections.sorting.za"{% endif %}>{{ 'collections.sorting.za' | t }}</span></li>
-      <li><span data-href="created-ascending" {% if settings.enable_multilang %}data-translate="collections.sorting.date_ascending"{% endif %}>{{ 'collections.sorting.date_ascending' | t }}</span></li>
-      <li><span data-href="created-descending" {% if settings.enable_multilang %}data-translate="collections.sorting.date_descending"{% endif %}>{{ 'collections.sorting.date_descending' | t }}</span></li>
-      <li><span data-href="best-selling" {% if settings.enable_multilang %}data-translate="collections.sorting.best_selling"{% endif %}>{{ 'collections.sorting.best_selling' | t }}</span></li>
+      {% comment %}<li><span data-href="manual" {% if settings.enable_multilang %}data-translate="collections.sorting.featured"{% endif %}>{{ 'collections.sorting.featured' | t }}</span></li>{% endcomment %}
+      {% comment %}<li><span data-href="title-ascending" {% if settings.enable_multilang %}data-translate="collections.sorting.az"{% endif %}>{{ 'collections.sorting.az' | t }}</span></li>{% endcomment %}
+      {% comment %}<li><span data-href="title-descending" {% if settings.enable_multilang %}data-translate="collections.sorting.za"{% endif %}>{{ 'collections.sorting.za' | t }}</span></li>{% endcomment %}
+      {% comment %}<li><span data-href="created-ascending" {% if settings.enable_multilang %}data-translate="collections.sorting.date_ascending"{% endif %}>{{ 'collections.sorting.date_ascending' | t }}</span></li>{% endcomment %}
     </ul>
   </div>
 

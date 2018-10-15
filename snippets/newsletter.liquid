@@ -54,8 +54,8 @@ jQuery(document).ready(function() {    //
     <div class="modal-overlay"></div>
     <div class="modal-window" style="display: none;">
       <div class="window-window">
+        <a class="btn close" title="{{ 'cart.ajax_cart.close' | t }}" data-translate="cart.ajax_cart.close">{{ 'cart.ajax_cart.close' | t }}</a>
         <div class="window-content">
-          <a class="btn close" title="{{ 'cart.ajax_cart.close' | t }}" data-translate="cart.ajax_cart.close">{{ 'cart.ajax_cart.close' | t }}</a>
           <div class="left">
             {% if settings.enable_multilang %}
             <h1 class="title lang1">{{ settings.popup_newsletter_title | split: '|' | first }}</h1>

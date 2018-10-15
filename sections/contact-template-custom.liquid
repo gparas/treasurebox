@@ -38,13 +38,27 @@
           {{ page.content }}
         </div>
         {% if section.settings.display_banner %}
-          {% if section.settings.banner != blank %}
-            {%- assign img_url = section.settings.banner | img_url: '2000x' -%}
-            <div style="margin: 20px 0;"><img src="{{ img_url }}"  alt="{{ section.settings.image.alt }}" /></div>
-          {% else %}
-            {% capture current %}{% cycle 2 %}{% endcapture %}
-            {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
-          {% endif %}
+          <div class="banner wow fadeInUp">
+            {% if section.settings.banner != blank %}
+              {%- assign img_url = section.settings.banner | img_url: '2000x' -%}
+              <div style="margin: 20px 0;"><img src="{{ img_url }}"  alt="{{ section.settings.image.alt }}" /></div>
+            {% else %}
+              {% capture current %}{% cycle 2 %}{% endcapture %}
+              {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+            <div class="container">
+              <div class="inner">
+                <div class="content">
+                  {% if section.settings.banner_text_title != blank %}
+                    <h4>
+                       {% include 'multilang' with section.settings.banner_text_title %}
+                    </h4>
+                    <p class="line">&nbsp;</p>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </div>
         {% endif %}
         {% if section.settings.display_location %}
           <div>
@@ -108,6 +122,40 @@
     {% endform %}
   </div>
 </div>
+
+<style>
+  .banner .container {padding: 0;}
+  .banner p.line{margin: 0;}
+  .banner h4{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 6px 0 16px;
+    text-align: left;
+  }
+  @media (min-width: 768px) {
+    .banner .container{
+      width: 100%;
+      transform: translateX(-50%);
+      margin-left: 0;
+    }
+    .banner .inner{
+      width: auto;
+      float: none;
+      margin: 0 auto;
+    }
+    .banner h4{
+      text-align: center;
+      color: {{ section.settings.banner_text_title_color }};
+      font-size: {{ section.settings.banner_text_title_size }}px;
+    }
+    .banner p.line{
+      margin: 0 auto;
+      background: {{ section.settings.banner_text_title_color }};
+    }
+  }
+</style>
+
 {% schema %}
     {
     "name": "Contact Page",
@@ -122,6 +170,25 @@
         "type": "image_picker",
         "id": "banner",
         "label": "Banner Image"
+      },
+      {
+        "type": "text",
+        "id": "banner_text_title",
+        "label": "Block Banner Title",
+        "default": "WORKSHOP"
+      },
+      {
+        "type": "color",
+        "id": "banner_text_title_color",
+        "label": "Title Color",
+        "default": "#fff"
+      },
+      {
+        "type": "text",
+        "id": "banner_text_title_size",
+        "label": "Heading Banner Size",
+        "default": "18",
+        "info": "Default Value: 18"
       },
       {
         "type": "checkbox",
