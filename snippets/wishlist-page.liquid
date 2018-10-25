@@ -44,9 +44,9 @@
           </div>
           {% endif %}
         </div>
-        <div class="col-sm-1 text-center wishlist-button">
+        <div class="col-sm-1 text-center wishlist-button"{% if settings.enable_multilang %}data-translate="wishlist.general.remove"{% endif %}>
           <a class="action--wishlist wishlist-btn" href="#" data-product-handle="{{ product.handle }}">
-            Remove
+            {{ 'wishlist.general.remove' | t }}
           </a>
         </div>
         <div class="col-sm-2 text-center wishlist-button">

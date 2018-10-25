@@ -541,14 +541,14 @@ html[xmlns] .slides {display: block;}
 .banner-home-top { clear: both; text-align: center; margin:56px auto 20px;}
 .banner-home-top ul { margin-bottom: 0; list-style: none; padding-left: 0; }
 .banner-home-top li { position: relative; margin-bottom: 20px; }
-.banner-home-top h4 { text-align: center;}
+.banner-home-top h4 { position: relative; margin: 20px 0; }
 .banner-home-top h4 span { font-weight: 700; text-transform: uppercase; }
 /* end Banner home top */
 .free-shipping {text-align: center; clear: both;}
 .free-shipping h3 {font-size: 13px; margin-bottom: 35px; font-weight: normal; line-height: 24px;}s
 .banner { text-align: center; position:relative; clear: both; margin: 0 0 37px; }
 .banner > img:hover { opacity: 1; filter:alpha(opacity=100); }
-.banner .container { height: 100%; position: absolute; top: 0; left: 50%; margin-left: -610px; }
+.banner .container { height: 100%; position: absolute; top: 0; left: 50%; transform: translateX(-50%);display: flex; }
 .banner .inner { width: 460px; display: table; float: right; height: 100%; }
 .banner .inner .content { display: table-cell; vertical-align: middle; }
 .banner h2 { font-size: 40px; font-weight: 700; color: #000; margin: 0 0 15px; position: relative;}
@@ -557,11 +557,11 @@ html[xmlns] .slides {display: block;}
 .banner .inner a { padding: 0 15px; }
 .banner {text-align: center;position: relative;clear: both; margin: 0 0 37px;}
 .widget-trending-product { margin-bottom: 55px; clear: both; }
-.banner-home-bottom { clear: both; }
+.banner-home-bottom { clear: both; text-align: center; margin:56px auto 20px;}
 .banner-home-bottom .widget-title { margin-bottom: 45px; }
 .banner-home-bottom ul { padding-left: 0; list-style: none; }
 .banner-home-bottom li { position: relative; text-align:center; margin-bottom: 30px; }
-.banner-home-bottom .des h4 { position: relative; margin: 35px 0 20px; }
+.banner-home-bottom .des h4 { position: relative; margin: 20px 0; }
 .banner-home-bottom .des p { clear: both; margin-bottom: 26px; }
 .banner-home-bottom .des a { padding: 0 25px; }
 
@@ -794,7 +794,7 @@ html[xmlns] .slides {display: block;}
 .special-price em { display: none; }
 
 .product-label,
-.lable_new{ position: absolute; top: 0; right: 0;}
+.lable_new{ position: absolute; top: 50%; left: 50%;transform: translate(-50%);}
 .product-label strong,
 .lable_new strong{ color: #e95144; line-height: 20px; height: 20px; font-size: 10px; font-weight: 700; display: inline-block; text-transform: uppercase; padding: 0 5px; border: 1px solid #e95144; background: #fff; margin-bottom: 10px; float: right; clear: both; }
 .product-label strong.sold-out-label { color: #d2d8db; border-color: #d2d8db; }
@@ -1819,7 +1819,7 @@ table.wishlist-product .a-center { text-align: center; }
 .header-bottom .btn-check-out {
   float: right;
 }
-.header-panel-bottom .customer-links li.wishlist .fa-heart{display:none}
+/*.header-panel-bottom .customer-links li.wishlist .fa-heart{display:none}*/
 .header-bottom .top-cart {
   margin: 0;
   padding: 0 0 8px 20px;
@@ -2135,12 +2135,14 @@ table.wishlist-product .a-center { text-align: center; }
 }
 .wishlist-product-content .wishlist-btn{
   display: inline-block;
-  width: 35px;
+  /*width: 35px;
   height: 35px;
   text-indent: -999em;
   background: url(btn-remove01.png) no-repeat center -2px;
-  border: 2px solid #e95144;
+  border: 2px solid #e95144;*/
   margin: 30px 0;
+  font-weight: 700;
+  color: {{ settings.error_color }};
 
 }
 .wishlist-product-content .btn{
@@ -2157,8 +2159,8 @@ table.wishlist-product .a-center { text-align: center; }
   padding: 16px 20px 13px;
 }
 .wishlist-product-content .wishlist-btn:hover{
-  background-color: #e95144;
-  background-position: center -37px;
+  /*background-color: #e95144;
+  background-position: center -37px;*/
 }
 .wishlist-product-content .btn:hover{
   background-color: #232323;
@@ -2257,7 +2259,7 @@ table.wishlist-product .a-center { text-align: center; }
 .header-bottom .top-cart .icon{
   position: absolute;
   left: 0;
-  top: -5px;
+  top: -4px;
 }
 
 .wishlist-container .wishlist-first {

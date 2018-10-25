@@ -3,8 +3,8 @@
 <ul class="customer-links">
   {% if settings.enable_wishlist %}
   <li class="wishlist">
-    <span class="icon">&nbsp;</span>
     <a href="/pages/wish-list" {% if settings.enable_multilang %}data-translate="wishlist.general.my_wishlist"{% endif %}>
+      <i class="fa fa-heart" aria-hidden="true"></i>
       {{ 'wishlist.general.my_wishlist' | t }}
     </a>
   </li>
@@ -19,8 +19,8 @@
 <ul class="customer-links">
   {% if settings.enable_wishlist %}
   <li class="wishlist">
-    <i class="fa fa-heart" aria-hidden="true"></i>
     <a href="/pages/wish-list" {% if settings.enable_multilang %}data-translate="wishlist.general.my_wishlist"{% endif %}>
+      <i class="fa fa-heart" aria-hidden="true"></i>
       {{ 'wishlist.general.my_wishlist' | t }}
     </a>
   </li>

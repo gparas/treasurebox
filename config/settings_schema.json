@@ -261,6 +261,13 @@
         "info": "Default Value: #2d2d2d"
       },
       {
+        "type": "color",
+        "id": "error_color",
+        "label": "Error Color",
+        "default": "#e95144",
+        "info": "Default Value: #e95144"
+      },
+      {
         "type": "header",
         "content": "Breadcrumb"
       },

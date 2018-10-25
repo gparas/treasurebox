@@ -7,7 +7,20 @@
   {% capture current %}{% cycle 2 %}{% endcapture %}
   {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
   {% endif %}
-  <div class="container">
+  <div
+    class="container"
+    style="
+      {% if section.settings.alignment == 'left' %}
+      justify-content: flex-start;
+      {% endif %}
+      {% if section.settings.alignment == 'right' %}
+      justify-content: flex-end;
+      {% endif %}
+      {% if section.settings.alignment == 'center' %}
+      justify-content: center;
+      {% endif %}
+    "
+  >
     <div class="inner">
       <div class="content">
       {% if section.settings.banner_text_title != blank %}
@@ -52,6 +65,26 @@
         "label": "Banner Image"
       },
       {
+        "type": "select",
+        "id": "alignment",
+        "label": "Alignment",
+        "default": "center",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
         "type": "text",
         "id": "banner_text_title",
         "label": "Block Banner Title",
@@ -85,7 +118,6 @@
         "type": "url",
         "id": "banner_button_link",
         "label": "Block Banner Link"
-        
       }
 	],
 	"presets": [
