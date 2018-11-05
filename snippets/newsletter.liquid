@@ -13,7 +13,8 @@ jQuery(document).ready(function() {    //
     $modalParent.append(modalWindow);
   
     if (jQuery.cookie('emailSubcribeModal') != 'closed') {
-        openEmailModalWindow();
+        // openEmailModalWindow();
+        setTimeout(function(){ openEmailModalWindow(); }, 20000);
     };
       
     jQuery('#email-modal .btn.close').click(function(e) {
