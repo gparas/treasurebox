@@ -28,7 +28,7 @@
         Loop through products in the cart
       {% endcomment %}
       {% for item in cart.items %}
-        <li>
+        <li class="{% include 'w3-product-options', step:'item_row_class' %}">
           <a class="product-img" href="{{ item.url | within: collections.all }}">
             {% comment %}
               More image size options at:
@@ -73,7 +73,7 @@
                 {% for p in item.properties %}
                   {% assign first_character_in_key = p.first | truncate: 1, '' %}
                   {% unless p.last == blank or first_character_in_key == '_' %}
-                    <span {% if settings.enable_multilang %}data-translate="cart.label.property"{%endif%}>{{ 'cart.label.property' | t }}</span>:
+                    {{ p.first }}:
                     {% if p.last contains '/uploads/' %}
                       <a class="lightbox" href="{{ p.last }}">{{ p.last | split: '/' | last }}</a>
                     {% else %}
@@ -96,7 +96,10 @@
             <p class="price">{{ item.price | money }}</p>
             {% endcomment %}
 
-            <p class="price">{{ item.line_price | money }}</p>
+            <p class="price">
+              {{ item.line_price | money }}
+              {% include 'w3-product-options', step:'money_line' %}
+            </p>
 
             {% comment %}
               Added data-id for the ajax cart implementation only.

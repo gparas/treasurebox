@@ -264,14 +264,14 @@
                 {% endif %}
               </div>
             
-              {% for tag in product.tags %}
-				{% if tag contains 'Personalized' %}
-               	  <p class="line-item-property__field">
+              {% comment %}{% for tag in product.tags %}
+                {% if tag contains 'Personalized' %}
+                  <p class="line-item-property__field">
                     <label for="details">Κείμενο Χάραξης</label><br/>
                     <input id="details" type="text" name="properties[Details]">
                   </p>
-            	{% endif %}
-			  {% endfor %}
+                {% endif %}
+              {% endfor %}{% endcomment %}
               
               <div id="product-variants">
                 {% assign variantCount = product.variants | size %}
@@ -293,7 +293,7 @@
                 {% endif %}
                 {% endif %}
               </div>
-              
+              <div class="w3-product-options" data-product-id="{{product.id}}" data-tags="{{ product.tags | join: ", " }}"></div>
               {% if product.available %} 
               <label for="quantity" {% if settings.enable_multilang %}data-translate="cart.label.quantity"{%endif%}>{{ 'cart.label.quantity' | t }}: </label>
               <div class="dec button">-</div>

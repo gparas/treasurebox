@@ -129,6 +129,25 @@
   }
 {% endschema %}
 <style>
+  .banner .container{
+    position: relative;
+  }
+  @media (min-width: 768px){
+    .banner .container::before {
+      display: block;
+      position: absolute;
+      left: 10px;
+      right: 10px;
+      top: 0;
+      bottom: 0;
+      content: '';
+      background: url({{ img_url }});
+      background-size: cover;
+      background-position: center;
+    }
+    .banner img { display: none; }
+    .banner .inner{padding: 100px 0;position: relative;}
+  }
   .banner h2 span { color: {{ section.settings.banner_text_title_color }}; }
   .banner p.line { background: {{ section.settings.banner_text_title_color }}; }
   .banner p.text-center span { color: {{ section.settings.banner_text_description_color }}; }
