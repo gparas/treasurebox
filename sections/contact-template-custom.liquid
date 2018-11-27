@@ -29,11 +29,6 @@
     
     <div class="row">    
       <div class="col-md-8 col-md-offset-2">
-        {% if form.posted_successfully? %}
-          <p class="note form-success" {% if settings.enable_multilang %}data-translate="contact.form.post_success"{% endif %}>
-            {{ 'contact.form.post_success' | t }}
-          </p>
-        {% endif %}
         <div class="rte">
           {{ page.content }}
         </div>
@@ -117,6 +112,11 @@
           
           <input type="submit" class="btn left" {% if settings.enable_multilang %}data-translate="contact.form.submit_contact"{%endif%} value="{{ 'contact.form.submit_contact' | t }}">
         </div>
+        {% if form.posted_successfully? %}
+          <p class="note form-success" {% if settings.enable_multilang %}data-translate="contact.form.post_success"{% endif %}>
+            {{ 'contact.form.post_success' | t }}
+          </p>
+        {% endif %}
       </div>
     </div>
     {% endform %}

@@ -3,7 +3,7 @@
     "enable_multilang": true,
     "lange_1": "GR",
     "lange_2": "ENG",
-    "share_image": "",
+    "share_image": "shopify:\/\/shop_images\/social-image.png",
     "social_facebook_link": "https:\/\/www.facebook.com\/treasureboxbyannita",
     "social_twitter_link": "",
     "social_vimeo_link": "",
@@ -22,6 +22,7 @@
     "favicon": "shopify:\/\/shop_images\/FAVICON_c4f65ca0-b758-4f4f-b325-d17ad8971130.png",
     "body_font_size": "12",
     "body_color": "#000000",
+    "error_color": "#e95144",
     "display_breadcrumb": true,
     "breadcrumb_color": "#c6ad88",
     "breadcrumb_text_transform": "uppercase",
@@ -30,29 +31,29 @@
     "enable_hover_image": true,
     "enable_sidebar_multiple_choice": false,
     "product_name_text_transform": "none",
-    "use_color_swatch": true,
+    "use_color_swatch": false,
     "primary_button_bg_color": "#c6ad88",
     "primary_button_border_color": "#c6ad88",
     "primary_button_text_color": "#ffffff",
-    "primary_button_bg_color_hover": "#ffffff",
+    "primary_button_bg_color_hover": "#c6ad88",
     "primary_button_border_color_hover": "#c6ad88",
-    "primary_button_text_color_hover": "#c6ad88",
-    "second_button_bg_color": "#ffffff",
+    "primary_button_text_color_hover": "#ffffff",
+    "second_button_bg_color": "#c6ad88",
     "second_button_border_color": "#c6ad88",
-    "second_button_text_color": "#000000",
-    "second_button_bg_color_hover": "#ffffff",
+    "second_button_text_color": "#ffffff",
+    "second_button_bg_color_hover": "#c6ad88",
     "second_button_border_color_hover": "#c6ad88",
-    "second_button_text_color_hover": "#c6ad88",
-    "display_popup_newsletter": true,
-    "newsletter": "shopify:\/\/shop_images\/newsletter.png",
-    "popup_newsletter_title": "Join Our Mailing List | Newsletter abonnieren",
-    "popup_newsletter_sub_title": "Pellentesque de fermentum mollis comodous an loremous",
-    "popup_newsletter_message": "Sign Up for exclusive updates, new arrivals <br>and insider-only discounts | Melden Sie sich für exklusive Updates, neue Ankünfte <br> und Insider-only Rabatte",
-    "mailing_list_form_action": "\/\/myshopify.us9.list-manage.com\/subscribe\/post?u=f03cabb421b3912425cda25cc&amp;id=2b084b0139",
+    "second_button_text_color_hover": "#ffffff",
+    "display_popup_newsletter": false,
+    "newsletter": "",
+    "popup_newsletter_title": "NEWSLETTER",
+    "popup_newsletter_sub_title": "Εγγραφείτε και κερδίστε 10% έκπτωση στην πρώτη σας αγορά",
+    "popup_newsletter_message": "",
+    "mailing_list_form_action": "\/\/eepurl.com\/dJEt4s",
     "display_popup_social": true,
-    "bg_sidebar": "#000000",
+    "bg_sidebar": "#c6ad88",
     "color_sidebar": "#fff",
-    "show_sidebar": "Show Sidebar",
+    "show_sidebar": "Φίλτρα | Filters",
     "hide_sidebar": "Hide Sidebar",
     "enable_wishlist": true,
     "image_swap": true,
@@ -71,21 +72,21 @@
     "quickview_text_availability": "Availability",
     "display_quickview_product_type": true,
     "quickview_text_product_type": "Product Type",
-    "display_quickview_vendor": true,
+    "display_quickview_vendor": false,
     "quickview_text_vendor": "Vendor",
     "display_quickview_subtotal": true,
     "display_quickview_short_desc": true,
     "quickview_text_countdown": "Limited-Time Offers, End in:",
     "ajax_cart": true,
-    "show_shipping_calculator": true,
-    "shipping_calculator_heading": "Get shipping estimates | Holen Versand Schätzungen",
+    "show_shipping_calculator": false,
+    "shipping_calculator_heading": "Υπολογισμος μεταφορικων | Get shipping estimates",
     "shipping_calculator_default_country": "Greece",
-    "shipping_calculator_submit_button_label": "Calculate Shipping | Berechnen Versandkosten",
-    "shipping_calculator_submit_button_label_disabled": "Calculating...",
+    "shipping_calculator_submit_button_label": "Υπολογισμος μεταφορικων | Get shipping estimates",
+    "shipping_calculator_submit_button_label_disabled": "Υπολογισμος... | Calculating...",
     "register_text_desc": "Sign up for a free account at Ella Boutique. | Melden Sie sich für ein kostenloses Konto bei Ella Boutique.",
     "enable_multiple_currencies": true,
-    "currency_1_unit": "USD",
-    "currency_2_unit": "EUR",
+    "currency_1_unit": "EUR",
+    "currency_2_unit": "USD",
     "currency_3_unit": "GBP",
     "currency_4_unit": "",
     "enable_lazy_loading_pc": false,
@@ -100,18 +101,18 @@
     "font_4": "google_fonts",
     "fonts_name_4": "Open Sans",
     "checkout_header_image": "",
-    "checkout_logo_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/TREASURE_BOX_site_H125.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "medium",
     "checkout_body_background_image": "",
     "checkout_body_background_color": "#fff",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_image": "",
-    "checkout_sidebar_background_color": "#fafafa",
-    "checkout_heading_font": "Helvetica Neue",
-    "checkout_body_font": "Helvetica Neue",
-    "checkout_accent_color": "#2d2d2d",
-    "checkout_button_color": "#000000",
+    "checkout_sidebar_background_color": "#f6f3ee",
+    "checkout_heading_font": "Roboto",
+    "checkout_body_font": "Open Sans",
+    "checkout_accent_color": "#c6ad88",
+    "checkout_button_color": "#c6ad88",
     "checkout_error_color": "#ff6d6d",
     "product_image_ratio_width": "1",
     "product_image_ratio_height": "1.35",
@@ -993,12 +994,12 @@
           "enable_retina": true,
           "logo_2x": "shopify:\/\/shop_images\/treasureBox_mobile.png",
           "min_height_logo": "25",
-          "display_header_top_text": false,
-          "header_top_text": "Mid-Season Sale Up to 70% OFF. Use Code: “SALE70”.",
-          "header_top_link_text": "Shop Now",
+          "display_header_top_text": true,
+          "header_top_text": "ΔΩΡΕΑΝ ΕΞΟΔΑ ΑΠΟΣΤΟΛΗΣ ΓΙΑ ΑΓΟΡΕΣ ΑΝΩ ΤΩΝ 60€ | FREE WORLDWIDE SHIPPING ON ALL ORDERS ABOVE 60€",
+          "header_top_link_text": "",
           "header_top_link": "shopify:\/\/collections",
-          "bg_header_top_color": "#000000",
-          "text_header_top_color": "#ffffff",
+          "bg_header_top_color": "#ffffff",
+          "text_header_top_color": "#000000",
           "bg_header_bottom_color": "#c6ad88",
           "display_header_text_order": true,
           "header_text_order": "τηλεφωνικη παραγγελια +30 6944571756 | Order online or call us +30 6944571756",
@@ -1006,7 +1007,7 @@
           "header_link_text_color": "#000000",
           "display_header_free_shipping": false,
           "header_free_shipping": "Free shipping on All Orders.",
-          "header_free_shipping_text_color": "#000",
+          "header_free_shipping_text_color": "#ffffff",
           "show_header_search": true,
           "bg_search_color": "#ffffff",
           "border_search_color": "rgba(0,0,0,0)",
@@ -1073,7 +1074,7 @@
           "nav_hover_color": "#c6ad88",
           "show_dropdown_arrow": false,
           "enable_new": false,
-          "megamenu_items_new": "Collections | Sammlungen",
+          "megamenu_items_new": "ΣΥΛΛΟΓΕΣ | COLLECTIONS",
           "nav_dropdown_border_style": "solid",
           "nav_dropdown_border_color": "#ffffff",
           "nav_dropdown_bg_color": "#fff",
@@ -1094,61 +1095,61 @@
           "1489074792947": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banner.jpg",
-              "three_block_heading_banner": "Editor’s Pick |  Unser Tip",
-              "three_block_heading_color": "#fff",
-              "three_block_heading_size": "16",
-              "link": "shopify:\/\/collections\/βραχιολια"
+              "image": "shopify:\/\/shop_images\/50fbb6574ce1e5dfb7c378fd70f943ef.JPG",
+              "three_block_heading_banner": "ΚΟΛΙΕ | NECKLACES",
+              "three_block_heading_color": "#000000",
+              "three_block_heading_size": "14",
+              "link": "shopify:\/\/collections\/necklaces"
             }
           },
           "1489074846538": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banner.jpg",
-              "three_block_heading_banner": "Shoes | Schuhe",
-              "three_block_heading_color": "#0f0e0e",
-              "three_block_heading_size": "16",
-              "link": ""
+              "image": "shopify:\/\/shop_images\/W41B5850.JPG",
+              "three_block_heading_banner": "ΒΡΑΧΙΟΛΙΑ |BRACELETS",
+              "three_block_heading_color": "#000000",
+              "three_block_heading_size": "14",
+              "link": "shopify:\/\/collections\/bracelets"
             }
           },
           "1489074856332": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banner.jpg",
-              "three_block_heading_banner": "Accessories | Zubehör",
-              "three_block_heading_color": "#fff",
-              "three_block_heading_size": "16",
-              "link": ""
+              "image": "shopify:\/\/shop_images\/skoylarikia.JPG",
+              "three_block_heading_banner": "ΣΚΟΥΛΑΡΙΚΙΑ | EARRINGS",
+              "three_block_heading_color": "#000000",
+              "three_block_heading_size": "14",
+              "link": "shopify:\/\/collections\/σκουλαρίκια-earrings"
             }
           },
           "1538820307217": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banner.jpg",
-              "three_block_heading_banner": "Bras",
-              "three_block_heading_color": "#fff",
-              "three_block_heading_size": "24",
-              "link": ""
+              "image": "shopify:\/\/shop_images\/W41B5689.JPG",
+              "three_block_heading_banner": "ΔΑΧΤΥΛΙΔΙΑ",
+              "three_block_heading_color": "#000000",
+              "three_block_heading_size": "14",
+              "link": "shopify:\/\/collections\/rings"
             }
           },
           "1538820310868": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banner.jpg",
-              "three_block_heading_banner": "Bras",
-              "three_block_heading_color": "#fff",
-              "three_block_heading_size": "24",
-              "link": ""
+              "image": "shopify:\/\/shop_images\/alla_eidi.JPG",
+              "three_block_heading_banner": "ΑΛΛΑ ΕΙΔΗ",
+              "three_block_heading_color": "#000000",
+              "three_block_heading_size": "14",
+              "link": "shopify:\/\/collections\/αλλα-ειδη-other"
             }
           },
           "1538820312591": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/banner.jpg",
-              "three_block_heading_banner": "Bras",
-              "three_block_heading_color": "#fff",
-              "three_block_heading_size": "24",
-              "link": ""
+              "image": "shopify:\/\/shop_images\/IMG_8078_1.JPG",
+              "three_block_heading_banner": "ΝΕΑ ΣΥΛΛΟΓΗ",
+              "three_block_heading_color": "#000000",
+              "three_block_heading_size": "14",
+              "link": "shopify:\/\/collections\/9-muses"
             }
           }
         },
@@ -1161,76 +1162,8 @@
           "1538820312591"
         ],
         "settings": {
-          "display_three_block_banner": true
-        }
-      },
-      "1489250340502": {
-        "type": "homepage-custom-content-bottom",
-        "blocks": {
-          "1494707462348": {
-            "type": "Banner",
-            "settings": {
-              "image": "",
-              "heading": "Lorem Et Dorus",
-              "heading_color": "#000",
-              "heading_size": "16",
-              "custom_bottom_description": "Nullam aliquet vestibulum augue non varius. Cras nec congue elitos. Duis tristique del ante nec aliquam. Praesent urna tellus laoreet an tellus ullamcorper fermentum facilisis eratum.",
-              "custom_bottom_description_color": "#2d2d2d",
-              "custom_bottom_description_size": "12",
-              "custom_bottom_button": "Shop Now",
-              "custom_bottom_url": ""
-            }
-          },
-          "1494707513248": {
-            "type": "Banner",
-            "settings": {
-              "image": "",
-              "heading": "MILANCELOS A LANOS",
-              "heading_color": "#000",
-              "heading_size": "16",
-              "custom_bottom_description": "Nullam aliquet vestibulum augue non varius. Cras nec congue elitos. Duis tristique del ante nec aliquam. Praesent urna tellus laoreet an tellus ullamcorper fermentum facilisis eratum.",
-              "custom_bottom_description_color": "#2d2d2d",
-              "custom_bottom_description_size": "12",
-              "custom_bottom_button": "Shop Now",
-              "custom_bottom_url": ""
-            }
-          },
-          "1494707519751": {
-            "type": "Banner",
-            "settings": {
-              "image": "",
-              "heading": "COMOS DE MILANO",
-              "heading_color": "#000",
-              "heading_size": "16",
-              "custom_bottom_description": "Nullam aliquet vestibulum augue non varius. Cras nec congue elitos. Duis tristique del ante nec aliquam. Praesent urna tellus laoreet an tellus ullamcorper fermentum facilisis eratum.",
-              "custom_bottom_description_color": "#2d2d2d",
-              "custom_bottom_description_size": "12",
-              "custom_bottom_button": "Shop Now",
-              "custom_bottom_url": ""
-            }
-          }
-        },
-        "block_order": [
-          "1494707462348",
-          "1494707513248",
-          "1494707519751"
-        ],
-        "settings": {
-          "custom-html-in-bottom": true,
-          "banner_home_bottom_title": "#Featured on ella"
-        }
-      },
-      "1489329138390": {
-        "type": "homepage-block-banner",
-        "settings": {
-          "display_banner": true,
-          "banner": "",
-          "banner_text_title": "Milancelos",
-          "banner_text_title_color": "#000",
-          "banner_text_description": "Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac, consequat velit. Quisquemos sodales suscipit tortor ditaemcos condimentum lacus meleifend menean viverra auctor blanditos comodous.",
-          "banner_text_description_color": "#2d2d2d",
-          "banner_button_text": "Shop The Collection",
-          "banner_button_link": ""
+          "display_three_block_banner": true,
+          "product_list_title": "Shop"
         }
       },
       "1489331648460": {
@@ -1239,7 +1172,7 @@
           "show_instagram": true,
           "instagram_bg_color": "#ffffff",
           "instagram_title": "#treasurebox On Instagram",
-          "instagram_des": "Phasellus lorem malesuada ligula pulvinar commodo maecenas suscipit auctom.",
+          "instagram_des": "SHOP OUR INSTAGRAM",
           "display_instagram_button": true,
           "instagram_button_text": "View Gallery | Ansicht-Galerie",
           "instagram_button_link": "http:\/\/instagram.com\/shopify",
@@ -1247,7 +1180,7 @@
           "accessToken": "2274988745.cffda6d.f4f34233797d40fb86b80325d48d8326",
           "limit": "10",
           "images_per_row": "5",
-          "resolution_images": "low_resolution"
+          "resolution_images": "standard_resolution"
         }
       },
       "footer": {
@@ -1261,19 +1194,19 @@
           "bg_footer_attachment": "scroll",
           "bg-footer-img": "",
           "bg_footer_line_color": "#282828",
+          "bg_footer_button_color": "#282828",
           "footer_title_color": "#000000",
           "footer_link_color": "#000000",
-          "footer_title_1": "ΚΑΤΑΣΤΗΜΑ | Shop",
-          "footer_linklist": "footer",
-          "footer_title_2": "ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ | INFORMATIONS",
-          "footer_linklist_2": "footer-menu-2",
-          "footer_title_3": "ΕΞΥΠΗΡΕΤΗΣΗ ΠΕΛΑΤΩΝ | CUSTOMER SERVICE",
-          "footer_linklist_3": "footer-menu-3",
+          "footer_title_1": "ΕΠΙΚΟΙΝΩΝΙΑ | CONTACT",
+          "location_code": "<p>\n  Ναυαρίνου 71 <br>\n  15562 Χολαργός, <br>\n  Αθήνα, Ελλάδα <br>\n  Τ: 211 2163680 <br>\n  K: 694 4571756 <br>\n  <a href=\"mailto:info@treasurebox.gr\" target=\"_top\">info@treasurebox.gr<\/a><br><br>\n  ΩΡΑΡΙΟ ΛΕΙΤΟΥΡΓΙΑΣ<br>\n  Δευτέρα, Τετάρτη, Πέμπτη: 10:00 - 15:00 <br>\n  Τρίτη 17:30 - 20:30\n<\/p> | <p>\n  Navarinou 71 <br>\n  15562 Holargos, <br>\n  Athens, Greece <br>\n  P: 211 2163680 <br>\n  M: 694 4571756 <br>\n  <a href=\"mailto:info@treasurebox.gr\" target=\"_top\">info@treasurebox.gr<\/a>\n<\/p>",
+          "footer_title_2": "ΟΡΟΙ ΣΥΝΑΛΛΑΓΩΝ",
+          "footer_linklist_2": "footer",
           "footer_social_enable": true,
-          "footer_social_title": "STAY CONNECTED",
+          "footer_social_title": "ΜΕΙΝΕΤΕ ΣΕ ΕΠΑΦΗ",
           "fb_like_code": "",
           "footer_newsletter_enable": true,
-          "footer_newsletter_text": "NEWSLETTER SIGN UP",
+          "footer_newsletter_title": "Newsletter",
+          "footer_newsletter_text": "Εγγραφείτε στο newsletter μας και κερδίστε 10% έκπτωση στην πρώτη σας αγορά",
           "footer_address_code": "© 2018 treasurebox. All Rights Reserved.",
           "show_payment_icons": false,
           "payment_display_visa": true,
@@ -1324,7 +1257,7 @@
         "type": "homepage-block-trending",
         "settings": {
           "show_slider_trending": true,
-          "show_slider_trending_collection": "προσωποποιημενα-κοσμηματα-personalized-jewellery",
+          "show_slider_trending_collection": "trending-now",
           "slider_trending_title": "Trending Now",
           "slider_trending_limit_all": "10",
           "trending_collection_results_per_row": "5"
@@ -1333,83 +1266,26 @@
       "sidebar": {
         "type": "sidebar",
         "blocks": {
-          "1489914800057": {
-            "type": "filter_color",
-            "settings": {
-              "enable": true,
-              "title": "Color | Farbe",
-              "color_text_1": "Beige",
-              "color_img_1": "",
-              "color_text_2": "Red",
-              "color_img_2": "",
-              "color_text_3": "White",
-              "color_img_3": "",
-              "color_text_4": "Pink",
-              "color_img_4": "",
-              "color_text_5": "Silver",
-              "color_img_5": "",
-              "color_text_6": "Blue",
-              "color_img_6": "",
-              "color_text_7": "Gray",
-              "color_img_7": "",
-              "color_text_8": "Black",
-              "color_img_8": "",
-              "color_text_9": "Green",
-              "color_img_9": "",
-              "color_text_10": "",
-              "color_img_10": "",
-              "color_text_11": "",
-              "color_img_11": "",
-              "color_text_12": "",
-              "color_img_12": "",
-              "color_text_13": "",
-              "color_img_13": "",
-              "color_text_14": "",
-              "color_img_14": "",
-              "color_text_15": "",
-              "color_img_15": "",
-              "color_text_16": "",
-              "color_img_16": "",
-              "color_text_17": "",
-              "color_img_17": "",
-              "color_text_18": "",
-              "color_img_18": "",
-              "color_text_19": "",
-              "color_img_19": "",
-              "color_text_20": "",
-              "color_img_20": ""
-            }
-          },
-          "1489916260508": {
-            "type": "filter_text",
-            "settings": {
-              "enable": true,
-              "title": "Size | Größe",
-              "list_tags": "XS, S, M, L, XL"
-            }
-          },
           "1489916287652": {
             "type": "filter_text",
             "settings": {
               "enable": true,
-              "title": "Price | Preis",
-              "list_tags": "Under $100, $100 - $200, Above $200"
+              "title": "ΤΙΜΗ | Price",
+              "list_tags": "Under 50€, 50€-100€, Above 100€"
             }
           },
-          "1489916302167": {
+          "1541447779591": {
             "type": "filter_text",
             "settings": {
               "enable": true,
-              "title": "Brand | Marke",
-              "list_tags": "Chanel, Dior, Gap, Lucci, Louis, Hermes"
+              "title": "ΥΛΙΚΟ | MATERIAL",
+              "list_tags": "Silver 925,\nGold 9K,\nGold 14K,\nGold 18K,\nBrass,\nOther Metal,\nCombined Metals,"
             }
           }
         },
         "block_order": [
-          "1489914800057",
-          "1489916260508",
           "1489916287652",
-          "1489916302167"
+          "1541447779591"
         ],
         "settings": {
           "display_sidebar_cat_page": true,
@@ -1438,7 +1314,7 @@
         "type": "recently-viewed-products",
         "settings": {
           "display_recently_viewed_products": true,
-          "recently_viewed_products_title": "Recently Viewed Products",
+          "recently_viewed_products_title": "ΕΙΔΑΤΕ ΠΡΟΣΦΑΤΑ | Recently Viewed Products",
           "number_of_recently_viewed_products": "8"
         }
       },
@@ -1472,14 +1348,14 @@
           "product_description_title": "περιγραφη προϊοντος | Product Description",
           "display_custom_tab": true,
           "custom_tab_title": "ΤΡΟΠΟΙ ΑΠΟΣΤΟΛΗΣ",
-          "custom_tab_content": "<p>Μπορείτε να παραλάβετε τα προϊόντα σας με έναν από τους ακόλουθους τρόπους: <br><br> 1. Παραλαβή από το workshop του www.treasurebox.gr στον Χολαργό Αττικής, επί της οδού Ναυαρίνου, αριθ. 71 (ισόγειο), Τ.Κ. 15562, τις ακόλουθες ώρες\/μέρες:<br> Δευτέρα, Τετάρτη και Πέμπτη 10:00 π.μ. – 15:00 και Τρίτη 17:30-20:30<br> Σε περίπτωση που επιλέξετε να παραλάβετε την παραγγελία σας από το κατάστημα, έχετε υποχρέωση να παραλάβετε την παραγγελία εντός 10 ημερολογιακών ημερών (ΣΕ ΠΕΡΙΠΤΩΣΗ ΠΟΥ Η ΠΑΡΑΓΓΕΛΙΑ ΣΑΣ ΑΦΟΡΑ ΣΕ ΠΡΟΙΟΝΤΑ ΤΑ ΟΠΟΙΑ ΔΕΝ ΕΙΝΑΙ ΑΜΕΣΑ ΔΙΑΘΕΣΙΜΑ ΚΑΙ ΓΙΝΟΝΤΑΙ ΚΑΤΟΠΙΝ ΠΑΡΑΓΓΕΛΙΑΣ ΟΠΩΣ ΓΙΑ ΠΑΡΑΔΕΙΓΜΑ ΤΑ ΠΡΟΣΩΠΟΠΟΙΗΜΕΝΑ ΚΟΣΜΗΜΑΤΑ, ΟΙ ΔΕΚΑ ΜΕΡΕΣ ΙΣΧΥΟΥΝ ΜΕΤΑ ΤΗΝ ΗΜΕΡΟΜΗΝΙΑ ΤΟΥ E-MAIL ΠΟΥ ΘΑ ΛΑΒΕΤΕ ΑΠΟ ΕΜΑΣ ΠΟΥ ΘΑ ΕΠΙΒΕΒΑΙΩΝΕΙ ΠΩΣ ΤΟ ΠΡΟΙΟΝ ΣΑΣ ΕΙΝΑΙ ΕΤΟΙΜΟ ΠΡΟΣ ΠΑΡΑΛΑΒΗ)<br><br> 2. Μέσω των συνεργαζόμενων με το κατάστημά μας, εταιρειών ταχυμεταφορών (courier):<br> - ACS & Γενική Ταχυδρομική για αποστολές στην Ελληνική Επικράτεια<br> - ΕΛ.ΤΑ. (Ελληνικά Ταχυδρομεία) για αποστολές στο εξωτερικό<br><br> Τα παραγγελθέντα προϊόντα, εφόσον είναι διαθέσιμα, παραδίδονται στην Ελληνική επικράτεια σε 1-4 εργάσιμες ημέρες. Για παραδόσεις στο εξωτερικό ο χρόνος παράδοσης προσδιορίζεται ανάλογα με τον προορισμό. Σε περίπτωση που τα προϊόντα δεν είναι διαθέσιμα στο ηλεκτρονικό κατάστημά μας, ο χρόνος παράδοσης αναφέρεται στο κάθε προϊόν διακριτά. Σε κάθε περίπτωση εφόσον εξωγενείς παράγοντες επηρεάζουν τον χρόνο παράδοσης των προϊόντων μας σε εσάς (απεργίες, καιρικά φαινόμενα κλπ) ή για περιοχές δυσπρόσιτες, θα ενημερωθείτε αμελλητί για τον εκτιμώμενο χρόνο παράδοσης.<br><br> Χρεώσεις παραδόσεων εντός Ελληνικής Επικράτειας:<br> Το κόστος για την αποστολή των προϊόντων με courier είναι 3,00 ευρώ για αποστολές εντός Ελληνικής Επικράτειας και 8,00 ευρώ για αποστολές στο εξωτερικό.<br><br> Για αγορές άνω των 60,00 € η χρέωση αποστολής είναι δωρεάν τόσο στην Ελλάδα όσο και στο εξωτερικό.<br><br> *Οι πελάτες εκτός Ευρωπαϊκής Ένωσης υπόκεινται σε τυχόν επιπλέον χρεώσεις που δύνανται να προκύψουν από διαφορές στην ισοτιμία, εκτελωνισμούς, εισαγωγικούς δασμούς, περιορισμούς των προϊόντων και άλλες τοπικές απαιτήσεις για τις οποίες η επιχείρηση μας δεν φέρει καμία ευθύνη.<br><br> Δεν υπάρχουν περιορισμοί στην παράδοση προϊόντων του ηλεκτρονικό μας καταστήματος εντός της Επικράτειας ή στο εξωτερικό.<\/p>",
+          "custom_tab_content": "<p>Μπορείτε να παραλάβετε τα προϊόντα σας με έναν από τους ακόλουθους τρόπους: <br><br> 1. Παραλαβή από το workshop του www.treasurebox.gr στον Χολαργό Αττικής, επί της οδού Ναυαρίνου, αριθ. 71 (ισόγειο), Τ.Κ. 15562, τις ακόλουθες ώρες\/μέρες:<br> Δευτέρα, Τετάρτη και Πέμπτη 10:00 π.μ. – 15:00 και Τρίτη 17:30-20:30<br> Σε περίπτωση που επιλέξετε να παραλάβετε την παραγγελία σας από το κατάστημα, έχετε υποχρέωση να παραλάβετε την παραγγελία εντός 10 ημερολογιακών ημερών (ΣΕ ΠΕΡΙΠΤΩΣΗ ΠΟΥ Η ΠΑΡΑΓΓΕΛΙΑ ΣΑΣ ΑΦΟΡΑ ΣΕ ΠΡΟΙΟΝΤΑ ΤΑ ΟΠΟΙΑ ΔΕΝ ΕΙΝΑΙ ΑΜΕΣΑ ΔΙΑΘΕΣΙΜΑ ΚΑΙ ΓΙΝΟΝΤΑΙ ΚΑΤΟΠΙΝ ΠΑΡΑΓΓΕΛΙΑΣ ΟΠΩΣ ΓΙΑ ΠΑΡΑΔΕΙΓΜΑ ΤΑ ΠΡΟΣΩΠΟΠΟΙΗΜΕΝΑ ΚΟΣΜΗΜΑΤΑ, ΟΙ ΔΕΚΑ ΜΕΡΕΣ ΙΣΧΥΟΥΝ ΜΕΤΑ ΤΗΝ ΗΜΕΡΟΜΗΝΙΑ ΤΟΥ E-MAIL ΠΟΥ ΘΑ ΛΑΒΕΤΕ ΑΠΟ ΕΜΑΣ ΠΟΥ ΘΑ ΕΠΙΒΕΒΑΙΩΝΕΙ ΠΩΣ ΤΟ ΠΡΟΙΟΝ ΣΑΣ ΕΙΝΑΙ ΕΤΟΙΜΟ ΠΡΟΣ ΠΑΡΑΛΑΒΗ)<br><br> 2. Μέσω των συνεργαζόμενων με το κατάστημά μας, εταιρειών ταχυμεταφορών (courier):<br> - ACS & Γενική Ταχυδρομική για αποστολές στην Ελληνική Επικράτεια<br> - ΕΛ.ΤΑ. (Ελληνικά Ταχυδρομεία) για αποστολές στο εξωτερικό<br><br> Τα παραγγελθέντα προϊόντα, εφόσον είναι διαθέσιμα, παραδίδονται στην Ελληνική επικράτεια σε 1-4 εργάσιμες ημέρες. Για παραδόσεις στο εξωτερικό ο χρόνος παράδοσης προσδιορίζεται ανάλογα με τον προορισμό. Σε περίπτωση που τα προϊόντα δεν είναι διαθέσιμα στο ηλεκτρονικό κατάστημά μας, ο χρόνος παράδοσης αναφέρεται στο κάθε προϊόν διακριτά. Σε κάθε περίπτωση εφόσον εξωγενείς παράγοντες επηρεάζουν τον χρόνο παράδοσης των προϊόντων μας σε εσάς (απεργίες, καιρικά φαινόμενα κλπ) ή για περιοχές δυσπρόσιτες, θα ενημερωθείτε αμελλητί για τον εκτιμώμενο χρόνο παράδοσης.<br><br> Χρεώσεις παραδόσεων εντός Ελληνικής Επικράτειας:<br> Το κόστος για την αποστολή των προϊόντων με courier είναι 3,00 ευρώ για αποστολές εντός Ελληνικής Επικράτειας και 8,00 ευρώ για αποστολές στο εξωτερικό.<br><br> Για αγορές άνω των 60,00 € η χρέωση αποστολής είναι δωρεάν στην Ελλάδα.<br><br> *Οι πελάτες εκτός Ευρωπαϊκής Ένωσης υπόκεινται σε τυχόν επιπλέον χρεώσεις που δύνανται να προκύψουν από διαφορές στην ισοτιμία, εκτελωνισμούς, εισαγωγικούς δασμούς, περιορισμούς των προϊόντων και άλλες τοπικές απαιτήσεις για τις οποίες η επιχείρηση μας δεν φέρει καμία ευθύνη.<br><br> Δεν υπάρχουν περιορισμοί στην παράδοση προϊόντων του ηλεκτρονικό μας καταστήματος εντός της Επικράτειας ή στο εξωτερικό.<\/p>",
           "display_size_chart": false,
           "custom_size_chart_title": "Size Chart",
           "custom_size_chart": "",
           "display_product_reviews": false,
           "product_review_title": "Κριτικες πελατων | Customer Reviews",
           "display_related_products": true,
-          "related_products_title": "Related Products",
+          "related_products_title": "ΣΧΕΤΙΚΑ ΠΡΟΪΟΝΤΑ | Related Products",
           "number_of_related_products": "8",
           "related_products_type": "collection",
           "show_sold_in": false,
@@ -1672,7 +1548,7 @@
       "cart-template": {
         "type": "cart-template",
         "settings": {
-          "cart_notes": true
+          "cart_notes": false
         }
       },
       "1490716464547": {
@@ -1682,36 +1558,36 @@
             "type": "image",
             "settings": {
               "image": "shopify:\/\/shop_images\/slideshow1.jpg",
-              "alignment": "left",
-              "title": "LOREM A COSMO",
+              "alignment": "center",
+              "title": "WINTER IS HERE...",
               "heading_color": "#ffffff",
-              "heading_size": "40",
-              "subheading": "Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac consequat velit. Quisquemos sodales.",
+              "heading_size": "18",
+              "subheading": "Αυθεντικά χειμερινά σύμβολα <br> το βελανίδι και το κάστανο<br> μια συλλογή επηρεασμένη από τη φύση και τους καρπούς της",
               "subheading_color": "#ffffff",
-              "subheading_size": "18",
-              "button": "ΨΩΝΙΣΕ ΤΩΡΑ | Shop Now",
-              "link": "shopify:\/\/collections"
+              "subheading_size": "12",
+              "button": "ΣΥΛΛΟΓΗ | COLLECTION",
+              "link": "shopify:\/\/collections\/winter-is-here"
             }
           },
-          "1491142899754": {
+          "1541836455440": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/slideshow2.jpg",
+              "image": "shopify:\/\/shop_images\/slideshow_gouri_xryso.jpg",
               "alignment": "center",
-              "title": "LOREM A COSMO",
+              "title": "9 ΜΟΥΣΕΣ",
               "heading_color": "#ffffff",
-              "heading_size": "40",
-              "subheading": "Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia an, tincidunt risus ac consequat velit. Quisquemos sodales.",
+              "heading_size": "18",
+              "subheading": "Οι 9 μούσες θα μας εμπνεύσουν το 2019... <br> Με μεγάλη χαρά σας παρουσιάζουμε το γούρι για τη νέα χρονιά <br>με επιρροές από τις 9 μούσες της αρχαιότητας",
               "subheading_color": "#ffffff",
-              "subheading_size": "18",
-              "button": "ΨΩΝΙΣΕ ΤΩΡΑ | Shop Now",
-              "link": "shopify:\/\/collections"
+              "subheading_size": "12",
+              "button": "ΣΥΛΛΟΓΗ|COLLECTION",
+              "link": "shopify:\/\/collections\/9-muses"
             }
           }
         },
         "block_order": [
           "1490716464547-0",
-          "1491142899754"
+          "1541836455440"
         ],
         "settings": {
           "slideshow_speed": "5000",
@@ -1743,68 +1619,137 @@
       "contact-template-custom": {
         "type": "contact-template-custom",
         "settings": {
+          "display_banner": true,
+          "banner": "shopify:\/\/shop_images\/WORKSHOPFINAL.png",
+          "banner_text_title": "OUR WORKSHOP",
+          "banner_text_title_color": "#000000",
+          "banner_text_title_size": "16",
+          "display_location": true,
+          "location_code": "<p>Ναυαρίνου 71, ισόγειο<br>15562 Χολαργός<\/p>\n<p>Email: info@treasurebox.gr<br>T: +30 211 2163 680<br>Κ: +30 6944571756<\/p>\n<p class=\"open-hours\">Ωράριο λειτουργίας:<br>Δευτέρα, Τετάρτη, Πέμπτη: 10:00 - 15:00<br>Τρίτη 17:30 - 20:30<\/p>",
           "display_google_map": true,
-          "google_map_code": "",
+          "google_map_code": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3144.1340738315057!2d23.809680715324074!3d37.99733307971957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a199b5396254bb%3A0x483391bd4fb7218f!2sNavarinou+71%2C+Cholargos+155+62!5e0!3m2!1sen!2sgr!4v1539551444593\" width=\"100%\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen=\"\"><\/iframe>",
           "contact_title": "ΣΤΕΙΛΤΕ ΜΑΣ ΤΟ ΜΗΝΥΜΑ ΣΑΣ",
           "contact_text_desc": "",
           "contact_your_name": "",
           "contact_phone_number": "",
-          "contact_your_email": "",
-          "display_location": true,
-          "location_code": "cools"
+          "contact_your_email": ""
         }
       },
-      "1538822072562": {
-        "type": "homepage-block-three-banner",
+      "about-page": {
+        "type": "about-page",
+        "settings": {
+          "banner": "shopify:\/\/shop_images\/story.jpg"
+        }
+      },
+      "1539259267161": {
+        "type": "slideshow",
+        "disabled": true,
         "blocks": {
-          "1538822072562-0": {
+          "1539259267161-0": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/clothing.6e1e1b67e30f8394c0.jpg",
-              "three_block_heading_banner": "Bras",
-              "three_block_heading_color": "#fff",
-              "three_block_heading_size": "24",
-              "link": ""
-            }
-          },
-          "1538822072562-1": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/clothing.6e1e1b67e30f8394c0.jpg",
-              "three_block_heading_banner": "Bras",
-              "three_block_heading_color": "#fff",
-              "three_block_heading_size": "24",
-              "link": ""
-            }
-          },
-          "1538822072562-2": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/clothing.6e1e1b67e30f8394c0.jpg",
-              "three_block_heading_banner": "Bras",
-              "three_block_heading_color": "#fff",
-              "three_block_heading_size": "24",
-              "link": ""
+              "image": "shopify:\/\/shop_images\/WORKSHOPFINAL.png",
+              "alignment": "center",
+              "title": "Our Workshop",
+              "heading_color": "#000",
+              "heading_size": "10",
+              "subheading": "ΝΑΥΑΡΙΝΟΥ 71, ΧΟΛΑΡΓΟΣ 15562, ΑΘΗΝΑ <br> ΩΡΑΡΙΟ ΛΕΙΤΟΥΡΓΙΑΣ<br> Δευτέρα, Τετάρτη, Πέμπτη: 10:00 - 15:00 <br>Τρίτη 17:30 - 20:30",
+              "subheading_color": "#000000",
+              "subheading_size": "12",
+              "button": "ΕΠΙΚΟΙΝΩΝΙΑ",
+              "link": "shopify:\/\/pages\/επικοινωνια"
             }
           }
         },
         "block_order": [
-          "1538822072562-0",
-          "1538822072562-1",
-          "1538822072562-2"
+          "1539259267161-0"
         ],
         "settings": {
-          "display_three_block_banner": true
+          "slideshow_speed": "5000",
+          "slideshow_transition": "false",
+          "navigation_color": "#fff",
+          "video_height": "38.25%",
+          "auto_playvideo": false
+        }
+      },
+      "1540217474112": {
+        "type": "homepage-custom-content-bottom",
+        "blocks": {
+          "1540217482280": {
+            "type": "Banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/9muses_square.JPG",
+              "heading": "9 muses to inspire you",
+              "heading_color": "#000",
+              "heading_size": "14",
+              "custom_bottom_description": "9 στοιχεία... <br> ένα για κάθε μια από τις 9 Μούσες... <br> για να μας εμπνεύσουν το 2019",
+              "custom_bottom_description_color": "#000000",
+              "custom_bottom_description_size": "12",
+              "custom_bottom_button": "VIEW COLLECTION",
+              "custom_bottom_url": "shopify:\/\/collections\/9-muses"
+            }
+          },
+          "1540217486153": {
+            "type": "Banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/W41B3924_14be4eb9-4dc9-4203-aa2a-0408f1fa6d31.jpg",
+              "heading": "WINTER IS HERE",
+              "heading_color": "#000",
+              "heading_size": "14",
+              "custom_bottom_description": "Κάστανα και βελανίδια έχουν αποτελέσει <br> πηγή έμπνευσης για αυτή τη συλλογή<br> που θα σας φέρει ζεστασιά",
+              "custom_bottom_description_color": "#000000",
+              "custom_bottom_description_size": "12",
+              "custom_bottom_button": "VIEW COLLECTION",
+              "custom_bottom_url": "shopify:\/\/collections\/winter-is-here"
+            }
+          },
+          "1540217487939": {
+            "type": "Banner",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/personalised_three_circles.jpg",
+              "heading": "ΠΡΟΣΩΠΟΠΟΙΗΜΕΝΑ  ΚΟΣΜΗΜΑΤΑ",
+              "heading_color": "#000000",
+              "heading_size": "14",
+              "custom_bottom_description": "Κοσμήματα ειδικά φτιαγμένα <br> για τον καθένα από εσάς.\n<br>Θα ερωτευθείτε αυτή τη συλλογή!",
+              "custom_bottom_description_color": "#000000",
+              "custom_bottom_description_size": "12",
+              "custom_bottom_button": "VIEW COLLECTION",
+              "custom_bottom_url": "shopify:\/\/collections\/personalized-jewellery"
+            }
+          }
+        },
+        "block_order": [
+          "1540217482280",
+          "1540217486153",
+          "1540217487939"
+        ],
+        "settings": {
+          "custom-html-in-bottom": true,
+          "banner_home_bottom_title": ""
+        }
+      },
+      "1540499395813": {
+        "type": "homepage-block-banner",
+        "settings": {
+          "display_banner": true,
+          "banner": "shopify:\/\/shop_images\/WORKSHOPFINAL.png",
+          "alignment": "center",
+          "banner_text_title": "Our Workshop",
+          "banner_text_title_color": "#000",
+          "banner_text_description": "ΝΑΥΑΡΙΝΟΥ 71, ΧΟΛΑΡΓΟΣ 15562, ΑΘΗΝΑ <br> ΩΡΑΡΙΟ ΛΕΙΤΟΥΡΓΙΑΣ<br> Δευτέρα, Τετάρτη, Πέμπτη: 10:00 - 15:00 <br>Τρίτη 17:30 - 20:30",
+          "banner_text_description_color": "#deceb6",
+          "banner_button_text": "ΕΠΙΚΟΙΝΩΝΙΑ",
+          "banner_button_link": "shopify:\/\/pages\/επικοινωνια"
         }
       }
     },
     "content_for_index": [
       "1490716464547",
-      "1538822072562",
+      "1540217474112",
       "1489499624605",
-      "1489329138390",
+      "1539259267161",
+      "1540499395813",
       "1489074782933",
-      "1489250340502",
       "1489331648460"
     ]
   },

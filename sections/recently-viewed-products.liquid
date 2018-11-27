@@ -72,11 +72,11 @@
         {% endraw %}
         {% if settings.enable_multilang %}
         {% raw %}
-          <a class="product-title" href="${url}">${splitTitle(title)}</a>
+          <a class="product-title" href="${url}">${splitTitle(title)| strip_html}</a>
         {% endraw %}
         {% else %}
         {% raw %}
-          <a class="product-title" href="${url}">${title}</a>
+          <a class="product-title" href="${url}">${title| strip_html}</a>
         {% endraw %}
         {% endif %}
         {% raw %}

@@ -1,0 +1,9 @@
+{% include 'breadcrumb' %}
+{% include 'collection-header' %}
+<div class="products-grid row">
+  {% capture cat %}{{ collection.handle }}{% endcapture %}
+  {% for link in linklists[cat].links %}
+  {% assign collection = link.object %}
+  {% include 'collection-grid-item' %}
+  {% endfor %}
+</div>

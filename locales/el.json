@@ -2,18 +2,18 @@
   "general": {
     "meta": {
       "tags": "Tagged \"{{ tags }}\"",
-      "page": "Page {{ page }}"
+      "page": "Σελίδα {{ page }}"
     },
     "404": {
-      "title": "404 Page Not Found",
-      "subtext_html": "The page you requested does not exist.",
-      "click_here": "Click here",
-      "continue_shopping": " to continue shopping."
+      "title": "404 Η σελίδα δεν βρέθηκε",
+      "subtext_html": "Η σελίδα που ζητήσατε δεν υπάρχει.",
+      "click_here": "Κάνε κλικ εδώ",
+      "continue_shopping": "να συνεχίσετε τις αγορές σας."
     },
     "breadcrumbs": {
       "home": "ΑΡΧΙΚΗ",
-      "cart": "Shopping cart",
-      "home_link_title": "Back to the frontpage"
+      "cart": "ΚΑΛΑΘΙ ΑΓΟΡΩΝ",
+      "home_link_title": "Επιστροφή στην αρχική σελίδα"
     },
     "newsletter_form": {
       "newsletter_email": "your-email@example.com",
@@ -26,142 +26,142 @@
       "no_results_html": "Η ΑΝΑΖΗΤΗΣΗ ΣΑΣ ΓΙΑ \"{{ terms }}\" ΔΕΝ ΕΠΙΣΤΡΕΦΕΙ ΑΠΟΤΕΛΕΣΜΑΤΑ.",
       "results_for_html": "ΑΠΟΤΕΛΕΣΜΑΤΑ ΑΝΑΖΗΤΗΣΗΣ ΓΙΑ \"{{ terms }}\"",
       "title": "ΑΝΑΖΗΤΗΣΗ ΠΡΟΪΟΝΤΩΝ ΣΤΗΝ ΙΣΤΟΣΕΛΙΔΑ",
-      "placeholder": "Αναζήτηση",
-      "submit": "Search"
+      "placeholder": "αναζήτηση",
+      "submit": "Αναζήτηση"
     },
     "currency": {
-      "change_text": "The store's currency changed to"
+      "change_text": "Το νόμισμα του eshop άλλαξε σε"
     }
   },
   "blogs": {
     "article": {
-      "author_on_date_html": "Posted on {{ date }} by {{ author }}",
-      "older_post": "Older Post",
-      "newer_post": "Newer Post",
+      "author_on_date_html": "Δημοσιεύτηκε στις {{ date }} από {{ author }}",
+      "older_post": "Παλαιότερη δημοσίευση",
+      "newer_post": "Νεότερη δημοσίευση",
       "tags": "Ετικέτες",
-      "comment_meta_html": "{{ author }} on {{ date }}",
-      "read_more": "Read more"
+      "comment_meta_html": "{{ author }} στις {{ date }}",
+      "read_more": "Διαβάστε περισσότερα"
     },
     "comments": {
-      "title": "Leave a comment",
-      "name": "Όνομα Name",
-      "email": "Your Email",
-      "message": "Your Comment",
-      "post": "Post comment",
-      "moderated": "Please note, comments must be approved before they are published",
-      "success_moderated": "Your comment was posted successfully. We will publish it in a little while, as our blog is moderated.",
-      "success": "Your comment was posted successfully! Thank you!",
-      "note": "All blog comments are checked prior to publishing",
+      "title": "Αφήστε ένα σχόλιο",
+      "name": "Όνομα",
+      "email": "Email",
+      "message": "Σχόλιο",
+      "post": "Σχόλιο δημοσίευσης",
+      "moderated": "Σημειώστε ότι τα σχόλια πρέπει να εγκριθούν πριν δημοσιευθούν",
+      "success_moderated": "Το σχόλιό σας δημοσιεύτηκε με επιτυχία. Θα το δημοσιεύσουμε σύντομα.",
+      "success": "Το σχόλιό σας δημοσιεύτηκε με επιτυχία! Eυχαριστούμε!",
+      "note": "Όλα τα σχόλια ελέγχονται πριν από τη δημοσίευση",
       "comments_with_count": {
-        "one": "{{ count }} comment",
-        "other": "{{ count }} comments"
+        "one": "{{ count }} σχόλιο",
+        "other": "{{ count }} σχόλια"
       }
     },
     "sidebar": {
-      "recent_articles": "Recent Articles",
-      "categories": "Categories"
+      "recent_articles": "Πρόσφατα άρθρα",
+      "categories": "Κατηγορίες"
     }
   },
   "cart": {
     "general": {
       "title": "ΤΟ ΚΑΛΑΘΙ ΜΟΥ",
       "remove": "ΔΙΑΓΡΑΦΗ",
-      "note": "Special instructions for seller",
+      "note": "Συμπληρώστε ο,τι νομίζετε πως θα μας φανεί χρήσιμο για την γρηγορότερη εξυπηρέτησή σας.",
       "subtotal": "ΥΠΟΣΥΝΟΛΟ",
-      "shipping_at_checkout": "Shipping & taxes calculated at checkout",
+      "shipping_at_checkout": "Αποστολή, φόροι, και εκπτώσεις θα υπολογιστούν στη σελίδα πληρωμής.",
       "update": "ΕΝΗΜΕΡΩΣΤΕ ΤΟ ΚΑΛΑΘΙ",
       "checkout": "ΟΛΟΚΛΗΡΩΣΗ ΑΓΟΡΑΣ",
       "button_checkout": "ΟΛΟΚΛΗΡΩΣΗ ΑΓΟΡΑΣ",
       "empty": "Το καλάθι σας είναι άδειο.",
-      "continue_browsing_html": "Continue browsing <a href=\"\/collections\/all\">here<\/a>.",
+      "continue_browsing_html": "Συνεχίστε την περιήγηση <a href=\"\/collections\/all\">εδώ<\/a>.",
       "view_cart": "Η ΔΕΙΤΕ ΤΟ ΚΑΛΑΘΙ",
-      "close_cart": "Close Cart",
-      "shopping_cart": "Cart",
+      "close_cart": "Κλείσιμο καλαθιού",
+      "shopping_cart": "Το καλάθι μου",
       "label": "Σημειωση",
       "label_text": "Πρόσθετα σχόλια",
       "shipping_calculator_button": "ΥΠΟΛΟΓΙΣΜΟΣ ΜΕΤΑΦΟΡΙΚΩΝ",
       "shipping_calculator_calculating": "ΥΠΟΛΟΓΙΣΜΟΣ...",
-      "shipping_calculator_error_message": "Error: Please enter right shipping information",
+      "shipping_calculator_error_message": "Σφάλμα: Παρακαλώ εισάγετε τα σωστά στοιχεία αποστολής",
       "shipping_calculator_success_many_rates": {
-        "there_are": "There are",
-        "shipping_rates_available_for": "shipping rates available for",
-        "starting_at": ", starting at"
+        "there_are": "Yπάρχουν",
+        "shipping_rates_available_for": "διαθέσιμες τιμές αποστολής για",
+        "starting_at": ", ξεκινώντας από"
       },
-      "shipping_calculator_success_one_rate": "There is one shipping rate available for",
-      "shipping_calculator_success_no_rate": "There is no shipping rate available for this order and destination.",
-      "shipping_calculator_success_at": "at"
+      "shipping_calculator_success_one_rate": "Υπάρχει μια διαθέσιμη τιμή αποστολής για",
+      "shipping_calculator_success_no_rate": "Δεν υπάρχει διαθέσιμη τιμή αποστολής για αυτή την παραγγελία και προορισμό.",
+      "shipping_calculator_success_at": "σε"
     },
     "label": {
       "product": "ΠΡΟΪΟΝ",
-      "price": "Price",
+      "price": "Τιμή",
       "quantity": "Ποσότητα",
       "total": "ΣΥΝΟΛΟ",
-      "property": "Details",
-      "or": "or"
+      "property": "Κείμενο χάραξης",
+      "or": "ή"
     },
     "ajax_cart": {
       "continue_shopping": "ΣΥΝΕΧΙΣΤΕ ΤΙΣ ΑΓΟΡΕΣ ΣΑΣ",
-      "go_to_cart": "ΠΗΓΙΝΕΤΕ ΣΤΟ ΚΑΛΑΘΙ",
+      "go_to_cart": "ΠΗΓΑΙΝΕΤΕ ΣΤΟ ΚΑΛΑΘΙ",
       "success_text": "προστέθηκε στο καλάθι αγορών σας.",
       "error": "Σφάλμα",
-      "loading": "Loading",
-      "close": "Close"
+      "loading": "Φόρτωση",
+      "close": "Κλείσιμο"
     }
   },
   "slideshow": {
-    "next_slide": "Next slide",
-    "previous_slide": "Previous slide",
-    "pause_slideshow": "Pause slideshow",
-    "play_slideshow": "Play slideshow",
-    "play_video": "Play video",
-    "close_video": "Close video"
+    "next_slide": "Επόμενο slide",
+    "previous_slide": "Προηγούμενο slide",
+    "pause_slideshow": "Παύση slideshow",
+    "play_slideshow": "Αναπαραγωγή slideshow",
+    "play_video": "Αναπαραγωγή βίντεο",
+    "close_video": "Κλείσιμο βίντεο"
   },
   "collections": {
     "general": {
-      "title": "Collections",
-      "no_matches": "Sorry, there are no products in this collection",
-      "link_title": "Browse our {{ title }} collection",
+      "title": "Συλλογές",
+      "no_matches": "Συγνώμη, δεν υπάρχουν προϊόντα σε αυτή τη συλλογή",
+      "link_title": "Δείτε τη συλλογή {{ title }}",
       "grid_view": "Grid view",
       "list_view": "List view",
       "shop_the_collection": "Shop The Collection",
-      "show_more": "Show more",
+      "show_more": "Δείτε περισσότερα",
       "no_more_product": "ΔΕΝ ΥΠΑΡΧΟΥΝ ΑΛΛΑ ΠΡΟΪΟΝΤΑ",
       "items_count": {
-        "one": "product",
-        "other": "products"
+        "one": "προϊόν",
+        "other": "προϊόντα"
       },
       "items_with_count": {
-        "one": "{{ count }} product",
-        "other": "{{ count }} products"
+        "one": "{{ count }} προϊόν",
+        "other": "{{ count }} προϊόντα"
       }
     },
     "sidebar": {
-      "types": "Product Types",
-      "vendors": "Vendors",
-      "tags": "Tags",
-      "clear": "Clear",
-      "clear_all": "Clear All",
-      "refined_by": "Refined by"
+      "types": "Τύποι προϊόντων",
+      "vendors": "Μάρκες",
+      "tags": "Ετικέτες",
+      "clear": "Καθαρισμός",
+      "clear_all": "Καθαρισμός όλων",
+      "refined_by": "Φίλτρα"
     },
     "sorting": {
       "title": "ΤΑΞΙΝΟΜΗΣΗ",
-      "featured": "Featured",
+      "featured": "Προτεινόμενα",
       "best_selling": "Δημοφιλή",
-      "az": "Alphabetically, A-Z",
-      "za": "Alphabetically, Z-A",
+      "az": "Αλφαβητικά, A-Z",
+      "za": "Αλφαβητικά, Z-A",
       "price_ascending": "Τιμή, Χαμηλή προς Υψηλή",
       "price_descending": "Τιμή, Υψηλή προς Χαμηλή",
       "date_descending": "Νέα Προϊόντα",
-      "date_ascending": "Date, old to new"
+      "date_ascending": "Ημερομηνία, παλαιότερα προς νεότερα"
     },
     "toolbar": {
       "view_as": "ΠΡΟΒΟΛΗ ΩΣ",
-      "show": "Show",
-      "showing": "Showing",
-      "all": "All",
-      "of": "of",
-      "previous": "Previous",
-      "next": "Next"
+      "show": "Εμφανιση",
+      "showing": "Εμφανιση",
+      "all": "Όλα",
+      "of": "από",
+      "previous": "Προηγουμενο",
+      "next": "Επομενο"
     }
   },
   "contact": {
@@ -185,12 +185,12 @@
       "return": "Επιστροφή στις Λεπτομέρειες Λογαριασμού"
     },
     "activate_account": {
-      "title": "Activate Account",
-      "subtext": "Create your password to activate your account.",
+      "title": "Ενεργοποίηση Λογαριασμού",
+      "subtext": "Δημιουργήστε έναν κωδικό για να ενεργοποιήσετε τον λογαριασμό σας",
       "password": "Κωδικός πρόσβασης",
-      "password_confirm": "Confirm Password",
-      "submit": "Activate Account",
-      "cancel": "Decline Invitation"
+      "password_confirm": "Επιβεβαίωση κωδικού",
+      "submit": "Ενεργοποίηση Λογαριασμού",
+      "cancel": "Απόρριψη πρόσκλησης"
     },
     "addresses": {
       "title": "ΟΙ ΔΙΕΥΘΥΝΣΕΙΣ ΜΟΥ",
@@ -224,7 +224,7 @@
       "login": "ΣΥΝΔΕΣΗ",
       "cancel": "Επιστροφή στο Κατάστημα",
       "guest_title": "Συνεχίστε ως επισκέπτης",
-      "guest_continue": "Continue"
+      "guest_continue": "Συνέχεια"
     },
     "orders": {
       "title": "ΙΣΤΟΡΙΚΟ ΠΑΡΑΓΓΕΛΙΩΝ",
@@ -237,14 +237,14 @@
     },
     "order": {
       "title": "Παραγγελία {{ name }}",
-      "date": "Placed on {{ date }}",
-      "cancelled": "Order Cancelled on {{ date }}",
-      "cancelled_reason": "Reason: {{ reason }}",
-      "billing_address": "Διεύθυνση χρέωσης",
+      "date": "Ημερομηνία {{ date }}",
+      "cancelled": "Η παραγγελία ακυρώθηκε στις {{ date }}",
+      "cancelled_reason": "Αιτιολογία: {{ reason }}",
+      "billing_address": "Διεύθυνση τιμολόγησης",
       "payment_status": "Κατάσταση πληρωμής",
       "shipping_address": "Διεύθυνση Αποστολής",
       "fulfillment_status": "Κατάσταση Ολοκλήρωσης",
-      "discount": "Discount",
+      "discount": "Έκπτωση",
       "shipping": "Αποστολή",
       "tax": "Φόρος",
       "product": "ΠΡΟΪΟΝ",
@@ -252,7 +252,7 @@
       "price": "ΤΙΜΗ",
       "quantity": "ΠΟΣΟΤΗΤΑ",
       "total": "ΣΥΝΟΛΟ",
-      "fulfilled_at": "Fulfilled {{ date }}",
+      "fulfilled_at": "Εκπληρώθηκε {{ date }}",
       "subtotal": "Υποσύνολο"
     },
     "recover_password": {
@@ -261,33 +261,33 @@
       "submit": "ΥΠΟΒΟΛΗ",
       "cancel": "Ακύρωση",
       "subtext": "Θα σας στείλουμε ένα email για να επαναφέρετε τον κωδικό πρόσβασής σας.",
-      "success": "We've sent you an email with a link to update your password."
+      "success": "Σας έχουμε στείλει ένα email με ένα link για να ενημερώσετε τον κωδικό πρόσβασής σας."
     },
     "reset_password": {
-      "title": "Reset account password",
-      "subtext": "Enter a new password for {{ email }}",
+      "title": "Επαναφορά του κωδικού πρόσβασης",
+      "subtext": "Εισάγετε νέο κωδικό πρόσβασης για  {{ email }}",
       "password": "Κωδικός πρόσβασης",
-      "password_confirm": "Confirm Password",
-      "submit": "Reset Password"
+      "password_confirm": "Επιβεβαίωση κωδικού πρόσβασης",
+      "submit": "Επαναφορά κωδικού πρόσβασης"
     },
     "register": {
-      "title": "Sign up",
+      "title": "Εγγραφή νέου μέλους",
       "first_name": "Όνομα",
       "last_name": "Επώνυμο",
       "email": "Email",
       "password": "Κωδικός πρόσβασης",
-      "submit": "Create an account",
-      "cancel": "Return to Store"
+      "submit": "Δημιουργία λογαριασμού",
+      "cancel": "Επιστροφή στο κατάστημα"
     },
     "form": {
-      "error_message": "Sorry, looks like something went wrong. Please correct the following and submit again:"
+      "error_message": "Συγνώμη, κάτι πήγε στραβά. Διορθώστε τα ακόλουθα και υποβάλετε εκ νέου:"
     }
   },
   "home_page": {
     "sections": {
-      "frontpage_title": "Frontpage Collection",
-      "featured_title": "Featured Collections",
-      "news_title": "Latest News"
+      "frontpage_title": "Συλλογή Αρχικής Σελίδας",
+      "featured_title": "Προτεινόμενες Συλλογές",
+      "news_title": "Τελευταία νέα"
     },
     "onboarding": {
       "modal_title": "Almost there...",
@@ -299,62 +299,62 @@
       "collection_title": "Example Collection Title"
     },
     "show_more": "Show more",
-    "no_more_product": "No more product"
+    "no_more_product": "Δεν υπάρχουν προϊόντα"
   },
   "layout": {
     "cart": {
-      "title": "Cart",
+      "title": "Καλάθι",
       "items_count": {
-        "one": "item",
-        "other": "items"
+        "one": "προϊόν",
+        "other": "προϊόντα"
       }
     },
     "customer": {
-      "account": "Account",
-      "logged_in_as_html": "Logged in as {{ first_name }}",
+      "account": "Λογαριασμός",
+      "logged_in_as_html": "Έχετε συνδεθεί ως {{ first_name }}",
       "log_out": "ΑΠΟΣΥΝΔΕΣΗ",
-      "log_in": "Log in",
+      "log_in": "Σύνδεση",
       "create_account": "ΕΓΓΡΑΦΗ"
     },
     "footer": {
-      "linklist_title": "Quick Links",
-      "social_title": "Get Connected",
+      "linklist_title": "Γρήγοροι Σύνδεσμοι",
+      "social_title": "Συνδεθείτε",
       "newsletter_title": "Newsletter",
-      "accepted_payments": "Accepted Payments"
+      "accepted_payments": "Δεκτές πληρωμές"
     }
   },
   "products": {
     "general": {
-      "previous_product_html": "&larr; Previous Product",
-      "next_product_html": "Next Product &rarr;",
-      "from": "From"
+      "previous_product_html": "&larr; Προηγούμενο προϊόν",
+      "next_product_html": "Επόμενο προϊόν &rarr;",
+      "from": "Από"
     },
     "product": {
-      "sale": "Sale",
-      "sold_out": "Sold Out",
-      "on_sale_from_html": "<strong>On Sale<\/strong> from {{ price }}",
+      "sale": "Εκπτωση",
+      "sold_out": "Εξαντλήθηκε",
+      "on_sale_from_html": "<strong>Σε έκπτωση<\/strong> από {{ price }}",
       "unavailable": "ΜΗ ΔΙΑΘΕΣΙΜΟ",
-      "compare_at": "Compare at",
+      "compare_at": "Συγκρίνετε με",
       "quantity": "Ποσότητα",
-      "add_to_cart": "Προσθήκη στο καλάθι",
-      "select_options": "Select options",
-      "quick_view": "Quick View",
-      "in_stock": "In stock",
-      "out_of_stock": "Out of stock",
-      "many_in_stock": "Many in stock",
-      "from": "from "
+      "add_to_cart": "ΠΡΟΣΘΗΚΗ ΣΤΟ ΚΑΛΑΘΙ",
+      "select_options": "Επιλέξτε επιλογές",
+      "quick_view": "Προεπισκοπηση",
+      "in_stock": "Σε απόθεμα",
+      "out_of_stock": "Δεν υπάρχει απόθεμα",
+      "many_in_stock": "Πολλά σε απόθεμα",
+      "from": "από "
     }
   },
   "gift_cards": {
     "issued": {
-      "title": "Here's your {{ value }} gift card for {{ shop }}!",
-      "subtext": "Here's your gift card!",
-      "disabled": "Disabled",
-      "expired": "Expired on {{ expiry }}",
-      "active": "Expires on {{ expiry }}",
-      "redeem": "Use this code at checkout to redeem your gift card",
-      "shop_link": "Start shopping",
-      "print": "Print"
+      "title": "{{ value }} δωροκάρτα για {{ shop }}!",
+      "subtext": "Η δωροκάρτα σας!",
+      "disabled": "Απενεργοποιημένο",
+      "expired": "Έληξε στις {{ expiry }}",
+      "active": "Λήγει στις {{ expiry }}",
+      "redeem": "Χρησιμοποιήστε αυτόν τον κωδικό κατά την ολοκλήρωση της παραγγελία σας για να εξαργυρώσετε τη δωροκάρτα σας",
+      "shop_link": "Ξεκινήστε τα ψώνια σας",
+      "print": "Εκτύπωση"
     }
   },
   "date_formats": {
@@ -362,25 +362,818 @@
   },
   "wishlist": {
     "general": {
-      "my_wishlist": " ",
+      "my_wishlist": "Wishlist ",
       "product_image": "ΕΙΚΟΝΑ ΠΡΟΪΟΝΤΟΣ",
       "product_name": "ΟΝΟΜΑ ΠΡΟΪΟΝΤΟΣ",
       "unit_price": "ΤΙΜΗ",
       "remove": "ΔΙΑΓΡΑΦΗ",
       "add_to_cart": "ΠΡΟΣΘΗΚΗ",
-      "share_wishlist": "Share my wish list via email",
-      "no_login_html": "To create a wish list you must <a href=\"\/account\/login\">sign in<\/a> or <a href=\"\/account\/register\">create an account<\/a>.",
-      "add_to_wishlist": "Add to wishlist",
-      "added_to_wishlist": "Added to wishlist",
-      "note": "Already in your wishlist, Go to wishlist",
-      "subtext": "To create a wish list you must",
-      "sign_in": "Login",
-      "or": "or",
-      "create_account": "Sign up"
+      "share_wishlist": "Μοιραστείτε τη wishlist σας μέσω email",
+      "no_login_html": "Για να δημιουργήσετε την λίστα σας, πρέπει να <a href=\"\/account\/login\"> συνδεθείτε <\/a> ή να <a href=\"\/account\/register\"> δημιουργήσετε ένα λογαριασμό <\/a> .",
+      "add_to_wishlist": "ΠΡΟΣΘΗΚΗ ΣΤΗ wishlist",
+      "added_to_wishlist": "Προστέθηκε στη wishlist",
+      "note": "Υπάρχει ήδη στη wishlist, πηγαίνετε στη wishlist",
+      "subtext": "Για να δημιουργήσετε τη wishlist σας, πρέπει",
+      "sign_in": "Σύνδεση",
+      "or": "ή",
+      "create_account": "Εγγραφή"
     },
     "ajax_wishlist": {
-      "go_to_wishlist": "Go To Wishlist",
-      "success_text": "is added to your wish list."
+      "go_to_wishlist": "Πηγαίνετε στη Wishlist",
+      "success_text": "προστέθηκε στη wishlist"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "review": {
+        "title": "Επιβεβαίωση παραγγελίας",
+        "checkout_as_guest": "Ολοκλήρωση της παραγγελίας ως επισκέπτης",
+        "credit_card": {
+          "expiration": "λήγει {{ date }}",
+          "edit_billing": "Επεξεργασία χρέωσης",
+          "add": "Προσθήκη νέας κάρτας",
+          "expired": "Έληξε",
+          "description": "λήγει σε {{ lastDigits }}"
+        },
+        "blocks": {
+          "contact_method_title": "Επικοινωνία",
+          "billing_address_title": "Χρέωση",
+          "shipping_address_title": "Αποστολή προς",
+          "shipping_method_title": "Μέθοδος",
+          "payment_method_title": "Πληρωμή",
+          "change_link_label": "Αλλαγή",
+          "change_contact_method_link_label": "Αλλαγή στοιχείων επικοινωνίας",
+          "change_billing_address_link_label": "Αλλαγή διεύθυνσης τιμολόγησης",
+          "change_shipping_address_link_label": "Αλλαγή διεύθυνσης αποστολής",
+          "change_shipping_method_link_label": "Αλλαγή τρόπου αποστολής",
+          "change_payment_method_link_label": "Αλλαγή τρόπου πληρωμής"
+        }
+      },
+      "general": {
+        "page_title": "Oλοκλήρωση αγορών",
+        "continue_button_label": "Συνέχεια",
+        "complete_purchase_button_label": "Ολοκλήρωση παραγγελίας",
+        "edit_link_label": "Επεξεργασία",
+        "all_rights_reserved": "{{ shop_name }}. Με την επιφύλαξη όλων των δικαιωμάτων",
+        "print_policies_link_label": "Εκτύπωση",
+        "cart": "Καλάθι",
+        "close_modal_label": "Κλείσιμο",
+        "close_notice_label": "Κλείσιμο",
+        "continue_to_shipping_method": "Συνεχίστε στον τρόπο αποστολής",
+        "continue_to_payment_method": "Συνεχίστε στον τρόπο πληρωμής",
+        "continue_to_review": "Επιβεβαίωση παραγγελίας",
+        "back_to_cart": "Επιστροφή στο καλάθι",
+        "back_to_contact_information": "Επιστροφή στα στοιχεία πελάτη",
+        "back_to_shipping_method": "Επιστροφή στον τρόπο αποστολής",
+        "back_to_payment_method": "Επιστροφή στον τρόπο πληρωμής",
+        "edit_shipping_address": "Επεξεργασία διεύθυνσης",
+        "edit_contact_information": "Επεξεργαστείτε τις πληροφορίες του πελάτη",
+        "edit_shipping_method": "Επεξεργασία τρόπου αποστολής",
+        "edit_payment_method": "Επεξεργασία τρόπου πληρωμής",
+        "edit_billing_address": "Επεξεργασία διεύθυνσης τιμολόγησης",
+        "choose_shipping_method": "Επιλέξτε τρόπο αποστολής",
+        "choose_payment_method": "Επιλέξτε τρόπο πληρωμής",
+        "choose_billing_address": "Επιλέξτε διεύθυνση τιμολόγησης",
+        "contact_us_html": "Επικοινωνήστε μαζί μας για περισσότερες πληροφορίες",
+        "autocomplete_title": "Προτάσεις",
+        "autocomplete_single_item": "1 προϊόν διαθέσιμο",
+        "autocomplete_multi_item": "{{number}} προϊόντα διαθέσιμα",
+        "autocomplete_selection": "{{number}} από {{total}}",
+        "footer": "Υποσέλιδο",
+        "forwarding_indicator": {
+          "new_window": "Άνοιγμα σε νέο παράθυρο.",
+          "external": "Άνοιγμα σε εξωτερική ιστοσελίδα.",
+          "external_and_new_window": "Άνοιγμα εξωτερικής ιστοσελίδας σε νέο παράθυρο."
+        },
+        "checkout_context": {
+          "step_one": "{{ shop_name }} - Oλοκλήρωση αγορών"
+        },
+        "skip_to_content": "Μετάβαση στο περιεχόμενο",
+        "authenticate_purchase_button_label": "Έλεγχος ταυτότητας πληρωμής"
+      },
+      "contact": {
+        "title": "Στοιχεία πελάτη",
+        "address_title": "Διεύθυνση",
+        "country_placeholder": "Χώρα",
+        "shipping_address_title": "Διεύθυνση αποστολής",
+        "contact_method_title": "Στοιχεία επικοινωνίας",
+        "email_label": "Email",
+        "email_placeholder": "Email",
+        "email_or_phone_label": "Email ή αριθμός κινητού τηλεφώνου",
+        "email_or_phone_placeholder": "Email ή αριθμός κινητού τηλεφώνου",
+        "stored_addresses_label": "Αποθηκευμένες διευθύνσεις",
+        "new_address_label": "Νέα διεύθυνση...",
+        "first_name_label": "Όνομα",
+        "optional_first_name_label": "Όνομα ( προαιρετικό )",
+        "first_name_placeholder": "Όνομα",
+        "optional_first_name_placeholder": "Όνομα ( προαιρετικό )",
+        "last_name_label": "Επίθετο",
+        "last_name_placeholder": "Επίθετο",
+        "company_label": "Εταιρεία",
+        "optional_company_label": "Εταιρεία ( προαιρετικό )",
+        "company_placeholder": "Εταιρεία",
+        "optional_company_placeholder": "Εταιρεία ( προαιρετικό )",
+        "address1_label": "Διεύθυνση",
+        "address1_placeholder": "Διεύθυνση",
+        "address2_label": "Διαμ\/σμα",
+        "optional_address2_label": "Διαμ\/σμα (προαιρετικό)",
+        "address2_placeholder": "Διαμ\/σμα",
+        "optional_address2_placeholder": "Διαμ\/σμα (προαιρετικό)",
+        "city_label": "Πόλη",
+        "city_placeholder": "Πόλη",
+        "country_label": "Χώρα",
+        "country_code": "Κωδικός χώρας",
+        "province_label": "Επαρχία",
+        "province_placeholder": "Επαρχία",
+        "phone_label": "Κινητό Τηλέφωνο",
+        "optional_phone_label": "Κινητό Τηλέφωνο (προαιρετικό)",
+        "phone_placeholder": "Κινητό Τηλέφωνο",
+        "optional_phone_placeholder": "Κινητό Τηλέφωνο (προαιρετικό)",
+        "zip_code_placeholder": "Ταχυδρομικός κώδικας",
+        "postal_code_placeholder": "Ταχυδρομικός κώδικας",
+        "postcode_placeholder": "Ταχυδρομικός κώδικας",
+        "pincode_placeholder": "Κωδικός PIN"
+      },
+      "customer_account": {
+        "not_user_label": "Όχι {{ first_name }}?",
+        "have_an_account_label": "Έχετε ήδη λογαριασμό;",
+        "sign_in_link_label": "Σύνδεση",
+        "sign_out_link_label": "Αποσύνδεση",
+        "save_my_information_label": "Αποθηκεύστε τις πληροφορίες για την επόμενη φορά "
+      },
+      "stock": {
+        "title": "Μειωμένη Διαθεσιμότητα",
+        "items_unavailable_notice": "Ορισμένα προϊόντα δεν είναι διαθέσιμα και έχει ενημερωθεί το καλάθι σας σύμφωνα με τη διαθεσιμότητα. Λυπούμαστε για την ταλαιπωρία.",
+        "product_column_header": "Προϊόντα",
+        "quantity_column_header": "Ποσότητα",
+        "price_column_header": "Τιμή",
+        "status_column_header": "Κατάσταση",
+        "removed_from_cart_notice": "Αφαιρέθηκε από το καλάθι",
+        "sold_out_label": "Εξαντλήθηκε",
+        "reduced_label": "Μειωμένη",
+        "reduced_with_quantity_label": "Διαθέσιμα {{ quantity_available }} ",
+        "remove_from_cart_button_label": "Αφαίρεση από το καλάθι",
+        "continue_shopping_button_label": "Συνέχεια",
+        "go_back_to_cart_button_label": "Πηγαίνετε πίσω στο καλάθι"
+      },
+      "order_summary": {
+        "title": "Σύνοψη παραγγελίας",
+        "order_name_label": "Παραγγελία {{ name }}",
+        "shopping_cart_label": "Το καλάθι μου",
+        "discount_title": "Έκπτωση",
+        "discount_label": "Έκπτωση",
+        "discount_placeholder": "Έκπτωση",
+        "gift_card_title": "Δωροκάρτα",
+        "gift_card_label": "Δωροκάρτα",
+        "gift_card_placeholder": "Δωροκάρτα",
+        "gift_card_and_discount_title": "Δωροκάρτα ή κωδικός έκπτωσης",
+        "gift_card_and_discount_label": "Δωροκάρτα ή κωδικός έκπτωσης",
+        "gift_card_and_discount_placeholder": "Δωροκάρτα ή κωδικός έκπτωσης",
+        "show_discount_form_link_label": "Έχετε κωδικό έκπτωσης; Κάντε κλικ εδώ για να εισάγετε",
+        "remove_gift_card_label": "Απαλοιφή δωροκάρτας",
+        "free_shipping_discount_label": "Δωρεάν αποστολή",
+        "apply_discount_button_label": "Εφαρμογή",
+        "subtotal_label": "Υποσύνολο",
+        "shipping_label": "Μεταφορικά",
+        "taxes_label": "Φόροι",
+        "shipping_policy_link": "Έξοδα αποστολής",
+        "total_label": "Σύνολο",
+        "partial_total_label": "Σύνολο",
+        "free_total_label": "Δωρεάν",
+        "payment_due_label": "Οφειλόμενη πληρωμή",
+        "paid_label": "Εξοφλήθη",
+        "vat_label_html": " ",
+        "discount_and_gift_card_savings_notice": "Μετά από {{ discount_amount }} σε εκπτώσεις και από {{ gift_card_amount }} σε δωροκάρτες",
+        "discount_savings_notice": "Μετά από {{ discount_amount }} σε εκπτώσεις",
+        "gift_card_savings_notice": "Μετά από {{ discount_amount }} σε δωροκάρτες",
+        "cost_table_title": "Σύνοψη",
+        "description_label": "Περιγραφή",
+        "price_label": "Τιμή",
+        "quantity_label": "Ποσότητα",
+        "product_image_label": "Εικόνα προϊόντος",
+        "expand_order_summary": "Σύνοψη παραγγελίας",
+        "collapse_order_summary": "Απόκρυψη σύνοψης παραγγελίας",
+        "total_updated_label": "Ενημερώθηκε η συνολική τιμή:",
+        "shipping_pending_value": "—",
+        "remove_discount_label": "Αφαιρέστε την έκπτωση",
+        "cart_does_not_meet_discount_requirements_notice": "Το καλάθι σας δεν πληροί τις απαιτήσεις για τον κωδικό έκπτωσης {{ code }}",
+        "discount_requires_customer_notice": "Υποβάλετε τις πληροφορίες αποστολής για να εφαρμόσετε τον κωδικό έκπτωσης {{ code }}",
+        "customer_does_not_meet_discount_requirements_notice": "Οι πληροφορίες πελάτη δεν πληρούν τις απαιτήσεις για τον κωδικό έκπτωσης {{ code }}",
+        "shipping_information_does_not_meet_discount_requirements_notice": "Οι πληροφορίες αποστολής δεν πληρούν τις απαιτήσεις για τον κωδικό έκπτωσης {{ code }}",
+        "customer_already_used_once_per_customer_discount_notice": "Έχει ήδη χρησιμοποιηθεί ο κωδικό έκπτωσης {{ code }}",
+        "tip_label": "Υπόδειξη",
+        "shipping_pending_message": "Δεν είναι διαθέσιμο",
+        "applied_discount_message": "{{ amount }} από συνολική τιμή παραγγελίας",
+        "discount_has_been_applied": "Έκπτωση έχει εφαρμοστεί",
+        "discount_has_been_removed": "Έκπτωση έχει αφαιρεθεί",
+        "gift_card_has_been_applied": "Δωροκάρτα έχει εφαρμοστεί",
+        "gift_card_has_been_removed": "Δωροκάρτα έχει αφαιρεθεί",
+        "discount_already_applied": "Έχει εφαρμοστεί έκπτωση σε αυτήν την παραγγελία. Δεν μπορείτε να προσθέσετε άλλη έκπτωση.",
+        "scroll_order_summary": "Κύλιση για περισσότερα στοιχεία"
+      },
+      "shipping": {
+        "title": "Τρόπος αποστολής",
+        "shipping_method_title": "Τρόπος αποστολής",
+        "waiting_on_rate_notice": "Παρακαλώ περιμένετε",
+        "no_rates_for_country_notice": "Δεν παρέχουμε μεταφορικά σε {{ country }}.",
+        "no_rates_contact_notice": "Για περισσότερες πληροφορίες επικοινωνήστε μαζί μας ",
+        "free_rate_label": "Δωρεάν",
+        "cheapest_rate_label": "Φθηνότερη",
+        "please_enter_your_shipping_information_notice": "Παρακαλούμε εισάγετε τα στοιχεία αποστολής σας.",
+        "estimated_delivery_date_range": "{{ minimum }} με {{ maximum }} εργάσιμες ημέρες",
+        "shipping_line_phone_label": "Αριθμός κινητού τηλεφώνου (υποχρεωτικό)",
+        "shipping_line_phone": "Ο courier μπορεί να χρησιμοποιήσει αυτόν τον αριθμό για να επικοινωνήσει μαζί σας.",
+        "estimated_delivery_date": {
+          "one": "1 εργάσιμη ημέρα",
+          "other": "{{ count }} εργάσιμες ημέρες"
+        },
+        "no_rates_for_cart_or_destination_notice": "Δεν υπάρχουν διαθέσιμοι τρόποι αποστολής για τον προορισμό.",
+        "shipping_rate_discounted_amount": "Ήταν: {{ original_amount }}. Τώρα {{ amount }}",
+        "other_method": {
+          "zero": "Δεν υπάρχουν άλλες διαθέσιμες μέθοδοι",
+          "one": "1 διαθέσιμη μέθοδος στο",
+          "other": "{{ count }} άλλες διαθέσιμες μέθοδοι αρχίζοντας από"
+        }
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Pay",
+        "amazon_payments_login_hint": "Θα σας ζητηθεί να συνδεθείτε με το Amazon.",
+        "amazon_payments_logout": "Αποσυνδεθείτε από το Amazon Pay",
+        "card_number_label": "Αριθμός κάρτας",
+        "card_number_placeholder": "Αριθμός κάρτας",
+        "name_on_card_label": "Όνομα κατόχου",
+        "name_on_card_placeholder": "Όνομα κατόχου",
+        "card_expiry_month_placeholder": "MM",
+        "card_expiry_year_placeholder": "YY",
+        "card_expiry_short_label": "MM \/ YY",
+        "card_expiry_placeholder": "MM \/ YY",
+        "card_verification_value_label": "CVV",
+        "card_verification_value_placeholder": "CVV",
+        "card_start_month_placeholder": "MM",
+        "card_start_year_placeholder": "YY",
+        "card_start_placeholder": "MM \/ YY",
+        "masked_digits_label": "•••• {{ last_digits }}",
+        "same_billing_address_label": "Ίδια με τη διεύθυνση αποστολής",
+        "different_billing_address_label": "Χρησιμοποιήστε διαφορετική διεύθυνση τιμολόγησης",
+        "billing_address_title": "Διεύθυνση τιμολόγησης",
+        "title": "Τρόπος πληρωμής",
+        "amount_left_to_pay_label": "Πληρωμή:",
+        "discount_button_action_label": "Εφαρμογή κωδικού έκπτωσης",
+        "gift_card_code_label": "Κωδικός δωροκάρτας",
+        "apply_gift_card_button_label": "Εφαρμογή",
+        "gift_card_balance_label": "Υπόλοιπο:",
+        "show_gift_card_form_link_label": "Έχετε δωροκάρτα; Κάντε κλικ εδώ για να την εισάγετε",
+        "supported_card_brands_more_label": "περισσότερα...",
+        "detected_card_brand": "Εντοπίστηκε κάρτα μάρκας: {brand}",
+        "card_pay_with": "Πληρώνω με:",
+        "card_security_notice": "Όλες οι συναλλαγές είναι ασφαλείς και κρυπτογραφημένες.",
+        "card_expiry_month_label": "Μήνας λήξης",
+        "card_expiry_year_label": "Έτος λήξης",
+        "card_expiry_label": "Λήξη",
+        "card_expiry_long_label": "Λήξη (MM \/ YY)",
+        "card_expiry_date_explanation": "Ημερομηνία λήξης της κάρτας σε μορφή: μήνας, μήνας, έτος, έτος",
+        "card_verification_value_explanation": "Ο τριψήφιος κωδικός ασφαλείας που βρίσκεται συνήθως στο πίσω μέρος της κάρτας σας. Οι κάρτες American Express έχουν ένα τετραψήφιο κωδικό που βρίσκεται μπροστά.",
+        "card_verification_value_explanation_amex": "Τετραψήφιο κωδικό ασφαλείας στο μπροστινό μέρος της κάρτας σας",
+        "card_verification_value_explanation_other": "Τριψήφιο κωδικό ασφαλείας στο πίσω μέρος της κάρτας σας",
+        "card_start_month_label": "Έναρξη μήνα",
+        "card_start_year_label": "Έτος έναρξης",
+        "card_start_label": "Αρχή",
+        "card_start_long_label": "Ημερομηνία έκδοσης (MM \/ YY)",
+        "card_issue_number_label": "Αριθμός έκδοσης",
+        "card_issue_number_placeholder": "Αριθμός έκδοσης",
+        "card_change_label": "Αλλαγή",
+        "ends_with_label": "λήγει σε {{ last_digits }}",
+        "saved_by_payment_method": "Αποθηκεύτηκε με {{ payment_method }}",
+        "pay_with_payment_method": "Πληρώμη με {{ payment_method }}",
+        "free_order_notice_html": "Η παραγγελία σας είναι δωρεάν. Δεν απαιτείται πληρωμή.",
+        "offsite_gateway_redirect_hint": "Αφού κάνετε κλικ στο κουμπί “{{ button_label }}”, θα μεταφερθείτε στο  {{ gateway_label }} για να ολοκληρώσετε την αγορά σας με ασφάλεια.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "{{ gateway_label }} σύνολο {{ total_shop_price }}",
+        "no_js_credit_card_fields_redirect_hint": "Θα μεταφερθείτε σε μια πύλη πληρωμής για να προσθέσετε τα στοιχεία πληρωμής σας.",
+        "card_fields_processing_error": "Παρουσιάστηκε σφάλμα κατά την επεξεργασία των πληροφοριών πληρωμής. Παρακαλούμε δοκιμάστε ξανά αργότερα.",
+        "technical_error": "Οι πληρωμές δεν μπορούν να επεξεργαστούν αυτή τη στιγμή λόγω τεχνικών προβλημάτων. Παρακαλούμε δοκιμάστε ξανά σε λίγα λεπτά.",
+        "no_method_error": "Με βάση την τοποθεσία ή τα προϊόντα στο καλάθι σας, δεν υπάρχουν διαθέσιμοι τρόποι πληρωμής.",
+        "not_configured_error": "Δεν έχει διαμορφωθεί κανένας τρόπος πληρωμής.",
+        "missing_credit_card_error": "Δεν είναι δυνατή η επεξεργασία μιας πληρωμής χωρίς πιστωτική κάρτα",
+        "generic_incorrect_card_info": "Οι πληροφορίες που δώσατε δεν ήταν δυνατόν να επαληθευτούν. Παρακαλούμε ελέγξτε τα στοιχεία της κάρτας σας και δοκιμάστε ξανά.",
+        "sofort_label": "Sofort τραπεζική μεταφορά",
+        "klarna_label": "Πλήρωσε αργότερα",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Η παραγγελία σας καλύπτεται από την δωροκάρτα σας.",
+          "other": "Η παραγγελία σας καλύπτεται από την δωροκάρτα σας."
+        },
+        "card_fields_unavailable_html": {
+          "one": "Οι πληρωμές με πιστωτική κάρτα δεν είναι διαθέσιμες αυτή τη στιγμή. <br> Παρακαλούμε <a href=\"javascript:window.location.reload();\"> ανανεώστε τη σελίδα <\/a> ή δοκιμάστε ξανά αργότερα .",
+          "other": "Οι πληρωμές με πιστωτική κάρτα δεν είναι διαθέσιμες αυτή τη στιγμή. <br> Παρακαλούμε <a href=\"javascript:window.location.reload();\"> ανανεώστε τη σελίδα <\/a> ή δοκιμάστε μια διαφορετική μέθοδο πληρωμής ."
+        },
+        "card_fields_container_prefix": "Πεδίο για:"
+      },
+      "payment_summary": {
+        "billing_address_title": "Διεύθυνση τιμολόγησης",
+        "gift_card_current_balance_notice": "Τρέχον υπόλοιπο {{ amount }}",
+        "credit_card_expires_on_notice": "Λήγει στις {{ month }}\/{{ year }}",
+        "express_payment_gateway_label": "Express",
+        "manual_payment_gateway_label": "Χειροκίνητη",
+        "free_label": "Δωρεάν"
+      },
+      "thank_you": {
+        "payment_method_title": "Τρόπος πληρωμής",
+        "shipping_method_title": "Τρόπος αποστολής",
+        "title": "Σας ευχαριστούμε για την αγορά σας!",
+        "confirmation_email_sent_text": "Ένα email επιβεβαίωσης έχει σταλεί στο {{ email }}",
+        "return_to_store_link_label": "Συνεχίστε τις αγορές",
+        "print_link_label": "Εκτυπώσετε την απόδειξη",
+        "payment_information_title": "Πληροφορίες πληρωμής",
+        "shipping_information_title": "Πληροφορίες αποστολής",
+        "page_title": "Σας ευχαριστούμε {{ display_name }}!",
+        "page_title_no_name": "Σας ευχαριστούμε!",
+        "cancelled_page_title": "Ακύρωση παραγγελίας",
+        "customer_information_title": "Στοιχεία πελάτη",
+        "billing_address_title": "Διεύθυνση τιμολόγησης",
+        "shipping_address_title": "Διεύθυνση αποστολής",
+        "shipping_address_map_title": "Google map: {{ address }}",
+        "tracking_number": "Αριθμός παρακολούθησης:",
+        "company_tracking_number": "{{ company }} αριθμός παρακολούθησης:",
+        "estimated_arrival": "Πιθανή ημερομηνία παράδοσης:",
+        "re-order": "Παραγγείλετε ξανά τα ίδια προϊόντα",
+        "confirmed": "Επιβεβαιωμένη",
+        "thank_you_title": "Η παραγγελία σας έχει καταχωρηθεί επιτυχώς",
+        "thank_you_description": "Έχουμε καταχωρήσει την παραγγελία σας, και την ετοιμάζουμε. Επιστρέψτε σε αυτή τη σελίδα για να ενημερωθείτε σχετικά με την παραλαβη.",
+        "confirmed_title": "Η παραγγελία σας απεστάλη",
+        "confirmed_description": "Για να δείτε την κατάσταση αποστολής της παραγγελίας σας, αντιγράψτε τον αριθμό παρακολούθησης και πατήστε πάνω για να μεταβείτε στο site του μεταφορέα",
+        "order_updates_title": "Ενημερώσεις Παραγγελίας",
+        "order_updates_description_html": "Εστάλη email επιβεβαίωσης στο {{ customer_contact }}",
+        "order_updates_current_step_prefix": "Τρέχον βήμα:",
+        "order_updates_past_step_prefix": "Προηγούμενο βήμα:",
+        "order_updates_upcoming_step_prefix": "Επερχόμενο βήμα:",
+        "in_transit": "Πλησιάζει",
+        "in_transit_title": "Η παραγγελία σας πλησιάζει",
+        "in_transit_description": "Επιστρέψτε σε αυτή τη σελίδα για ενημερωθείτε σχετικά με την κατάσταση της αποστολής σας.",
+        "in_transit_description_days": "Θα παραλάβετε την παραγγελία σας τις επόμενες {{ number }} ημέρες.",
+        "in_transit_description_today": "Θα παραλάβετε την παραγγελία σας σήμερα.",
+        "in_transit_description_tomorrow": "Θα παραλάβετε την παραγγελία σας την επόμενη μέρα.",
+        "no_tracking_number": "Δεν υπάρχει αριθμός παρακολούθησης για αυτή την αποστολή.",
+        "out_for_delivery": "Ετοιμοπαράδοτοι",
+        "out_for_delivery_title": "Η παραγγελία σας είναι στο δρόμο για την παράδοση",
+        "out_for_delivery_description_html": "Η παραγγελία σας βρίσκεται στο φορτηγό παράδοσης - αναμένεται να φτάσει σήμερα. Αν δεν την λάβετε μέσα στις επόμενες 2 ημέρες, παρακαλούμε {{ contact_us }}.",
+        "attempted_delivery": "Απόπειρα παράδοσης",
+        "attempted_delivery_title": "Έγινε προσπάθεια παράδοσης της παραγγελία σας",
+        "attempted_delivery_description_html": "Έγινε προσπάθεια να παραδώσουμε την παραγγελία, αλλά ήταν ανεπιτυχής. Παρακαλούμε {{ contact_us }} για να κανονίσουμε νέα παράδοση.",
+        "delivered": "Παραδόθηκε",
+        "delivered_title": "Η παραγγελία σας έχει παραδοθεί",
+        "delivered_description_html": "Η παραγγελία σας έχει παραδοθεί στη διεύθυνση που δηλώσατε. Αν δεν έχετε λάβει ή αν έχετε οποιαδήποτε άλλο πρόβλήμα, παρακαλούμε {{ contact_us }}.",
+        "contact_us": "Επικοινωνήστε μαζί μας",
+        "contact_us_lowercase": "επικοινωνήστε μαζί μας",
+        "contact_us_html": "Χρειάζεστε βοήθεια; {{ contact_us }}",
+        "updated_time": "Ενημερώθηκε πριν από {{ time_ago }}",
+        "failure": "Δεν έχει παραδωθεί",
+        "failed_title": "Η αποστολή σας δεν κατάφερε να παραδοθεί",
+        "failed_contact_merchant": "Σύμφωνα με την {{ company }}, η παραγγελία σας δεν παραδόθηκε όπως είχε προγραμματιστεί. Παρακαλούμε επικοινωνήστε με την {{ company }} για να κανονίσετε μία άλλη παράδοση.",
+        "failed_contact_merchant_no_company": "Η παραγγελία σας δεν παραδόθηκε όπως είχε προγραμματιστεί . Παρακαλούμε επικοινωνήστε μαζί μας για να κανονίσουμε μια άλλη προσπάθεια παράδοσης.",
+        "non_shippable_title": "Η παραγγελία σας έχει ολοκληρωθεί",
+        "login_title": "Συνδεθείτε για να δείτε τις λεπτομέρειες αποστολής",
+        "login_description": "Μπορείτε να βρείτε τον αριθμό της παραγγελίας σας στην απόδειξη που λάβατε μέσω email.",
+        "login_description_phone": "Μπορείτε να βρείτε τον αριθμό της παραγγελίας σας στην απόδειξη που λάβατε μέσω sms.",
+        "login_not_customer_html": "Όχι {{ name }}; Μπορείτε να {{ link }}",
+        "customer_information_hidden_fields_message": "Συνδεθείτε για να δείτε τις πληροφορίες πελατών.",
+        "cancelled_title": "Η παραγγελία σας έχει ακυρωθεί",
+        "cancelled_description": "Παραγγελία σας ακυρώθηκε στις {{ date }}. Επικοινωνήστε μαζί μας εάν έχετε οποιεσδήποτε απορία.",
+        "order_number_label": "Αριθμός παραγγελίας",
+        "customer_validation_error": "Μη έγκυρος αριθμός παραγγελίας ή email.",
+        "customer_validation_error_phone": "Μη έγκυρος αριθμός τηλεφώνου ή παραγγελίας.",
+        "login": "Σύνδεση",
+        "unfulfilled_items_title": "Προετοιμασία για αποστολή",
+        "unfulfilled_items_description": "Προετοιμάζουμε τα προϊόντα για αποστολή.",
+        "opt_in_message_html": "Οι πληροφορίες σας αποθηκεύτηκαν επιτυχώς με <span class=\"emphasis\">Shopify Pay<\/span>.",
+        "order_updates_description_missing": "Δεν λαμβάνετε ενημερώσεις αποστολής.",
+        "order_updates_description_email_html": "Θα λάβετε σύντομα ένα email επιβεβαίωσης με τον αριθμό της παραγγελίας σας. Όλες οι ενημερώσεις θα σταλούν {{ customer_contact }}",
+        "order_updates_description_phone_html": "Θα λάβετε σύντομα ένα SMS επιβεβαίωσης με τον αριθμό της παραγγελίας σας. Όλες οι ενημερώσεις θα σταλούν {{ customer_contact }}",
+        "order_updates_description_email_and_phone_html": "Οι ενημερώσεις θα σταλούν στο {{ email }} και {{ phone }}.",
+        "order_updates_subscribe_to_email_notifications": "Λάβετε ενημερώσεις για την αποστολή σας με email",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Λάβετε ενημερώσεις για την αποστολή σας με email ή SMS",
+        "order_updates_subscribe_to_phone_notifications": "Λάβετε ενημερώσεις για την αποστολή σας με SMS",
+        "order_updates_submit_subscription": "Υποβολή",
+        "track_shipment": "Παρακολούθηση αποστολής",
+        "login_reorder_link_text": {
+          "one": "αγοράσετε επίσης αυτό το προϊόν",
+          "other": "αγοράσετε επίσης αυτά τα προϊόντα"
+        },
+        "marker": {
+          "current": "Τρέχουσα τοποθεσία αποστολής",
+          "shipping": "Διεύθυνση αποστολής"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Προϊόντα σε αυτή την αποστολή",
+          "unfulfilled_table_title": "Προετοιμασία για αποστολή προϊόντων",
+          "product_image_label": "Εικόνα προϊόντος",
+          "description_label": "Περιγραφή",
+          "quantity_label": "Ποσότητα"
+        },
+        "shopify_pay": {
+          "order_completed_html": "Η παραγγελία ολοκληρώθηκε με {{ shopify_pay }}",
+          "learn_more_label": "Μάθετε περισσότερα για το Shopify Pay"
+        },
+        "order_status_updates_with_email": "Θα λάβετε ενημερώσεις σχετικά με την αποστολή και την παράδοση μέσω email.",
+        "contact_information_title": "Στοιχεία επικοινωνίας"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Παρακαλούμε εισάγετε έναν έγκυρο αριθμό τηλεφώνου",
+        "handle_email_invalid": "Παρακαλούμε εισάγετε μια έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου",
+        "email_invalid": "Παρακαλούμε εισάγετε μια έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου",
+        "email_or_phone_blank": "Παρακαλούμε εισάγετε τη διεύθυνση ηλεκτρονικού ταχυδρομείου ή τον αριθμό κινητού τηλεφώνου σας",
+        "email_or_phone_invalid": "Παρακαλούμε εισάγετε μια έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου ή έναν αριθμό κινητού τηλεφώνου",
+        "address_first_name_blank": "Παρακαλούμε εισάγετε το όνομά σας",
+        "address_last_name_blank": "Παρακαλούμε εισάγετε το επώνυμό σας",
+        "address_address1_blank": "Παρακαλούμε εισάγετε τη διεύθυνσή σας",
+        "address_address2_blank": "Παρακαλούμε εισάγετε το διαμέρισμα, σουίτα, κλπ",
+        "address_city_blank": "Παρακαλούμε εισάγετε την πόλη σας",
+        "address_country_blank": "Παρακαλούμε επιλέξτε τη χώρα σας",
+        "address_province_blank": "Παρακαλούμε επιλέξετε πολιτεία \/ επαρχία",
+        "address_company_blank": "Παρακαλούμε εισάγετε το όνομα της εταιρείας",
+        "address_phone_blank": "Παρακαλούμε εισάγετε έναν έγκυρο αριθμό τηλεφώνου",
+        "address_zip_blank": "Παρακαλούμε εισάγετε τον ταχυδρομικό σας κωδικό",
+        "address_zip_invalid_for_country": "Παρακαλούμε εισάγετε ένα έγκυρο ταχυδρομικό κώδικα για {{ country }}",
+        "address_zip_invalid_for_country_and_province": "Παρακαλούμε εισάγετε ένα έγκυρο ταχυδρομικό κώδικα για {{ province }}, {{ country }}",
+        "credit_card_name_blank": "Παρακαλούμε εισάγετε το όνομά σας όπως εμφανίζεται στην πιστωτική κάρτα",
+        "credit_card_name_invalid": "Παρακαλούμε εισάγετε το όνομά σας όπως εμφανίζεται στην πιστωτική κάρτα",
+        "credit_card_number_invalid": "Παρακαλούμε εισάγετε έναν έγκυρο αριθμό πιστωτικής κάρτας",
+        "credit_card_expiry_invalid": "Παρακαλούμε εισάγετε μια έγκυρη ημερομηνία λήξη",
+        "credit_card_month_invalid": "Παρακαλούμε εισάγετε ένα έγκυρο μήνα λήξη",
+        "credit_card_year_invalid": "Παρακαλούμε εισάγετε ένα έγκυρο έτος λήξη",
+        "credit_card_start_invalid": "Παρακαλούμε εισάγετε μια έγκυρη ημερομηνία έναρξης",
+        "credit_card_start_month_invalid": "Παρακαλούμε εισάγετε ένα έγκυρο μήνα έναρξης",
+        "credit_card_start_year_invalid": "Παρακαλούμε εισάγετε ένα έγκυρο έτος έναρξης",
+        "credit_card_verification_value_blank": "Παρακαλούμε εισάγετε το CVV",
+        "reduction_code_code_not_found": "Ο κωδικός δεν ταιριάζει με οποιοδήποτε ενεργή δωροκάρτα ή έκπτωση",
+        "reduction_code_discount_not_found": "Δεν είναι δυνατή η εύρεση έκπτωσης που να ταιριάζει με τον κωδικό που καταχωρίσατε",
+        "reduction_code_gift_card_code_invalid": "Ο κωδικός δεν είναι έγκυρος",
+        "reduction_code_gift_card_unusable": "Δεν είναι δυνατή η χρήση δωροκάρτα σε παραγγελία που περιέχει δωροκάρτα.",
+        "shipping_line_phone_blank": "Για να χρησιμοποιήσετε αυτόν τον τρόπο αποστολής, πρέπει να εισαγάγετε τον αριθμό του κινητού σας τηλεφώνου.",
+        "shipping_line_phone_invalid": "Για να χρησιμοποιήσετε αυτόν τον τρόπο αποστολής, πρέπει να εισαγάγετε έναν 10ψήφιο αριθμό κινητού τηλεφώνου.",
+        "gift_card_already_applied": "Αυτή η δωροκάρτα έχει ήδη εφαρμοστεί στην παραγγελία σας",
+        "gift_card_disabled": "Η δωροκάρτα δεν είναι πλέον διαθέσιμη",
+        "gift_card_expired": "Η δωροκάρτα έχει λήξει",
+        "gift_card_depleted": "Δεν υπάρχει υπόλοιπο σε αυτήν την δωροκάρτα",
+        "gift_card_currency_mismatch": "Μόνο κάρτες δώρων που αγοράστηκαν σε {{ checkout_currency }} μπορούν να εφαρμοστούν σε αυτή τη παραγγελία"
+      },
+      "payment_errors": {
+        "generic_error": "Παρουσιάστηκε σφάλμα κατά την επεξεργασία της πληρωμής σας. Δοκιμάστε ξανά.",
+        "rejected_transaction": "Η συναλλαγή απέτυχε. Δοκιμάστε ξανά.",
+        "credit_card_processing": "Αντιμετωπίζουμε τεχνικές δυσκολίες κατά την επεξεργασία της πιστωτική σας κάρτα. Παρακαλώ δοκιμάστε ξανά σε λίγα λεπτά.",
+        "order_total_changed": "Έχει αλλάξει το σύνολο της παραγγελίας σας. Παρακαλούμε βεβαιωθείτε ότι είστε ενήμεροι για τις αλλαγές πριν από την ολοκλήρωση της παραγγελίας σας.",
+        "payment_processing": "Παρουσιάστηκε πρόβλημα με την υπηρεσία πληρωμών. Επιλέξτε διαφορετικό τρόπο πληρωμής ή δοκιμάστε ξανά αργότερα.",
+        "paypal_zero_amount": "Δεν μπορείτε να χρησιμοποιήσετε το PayPal για παραγγελίες {{ amount }} Επιβεβαιώστε ότι η παραγγελία σας είναι σωστή και συνεχίστε"
+      },
+      "shipping_errors": {
+        "shipping_method": "Το καλάθι σας έχει τροποποιηθεί και δεν ισχύει το ποσό αποστολής που επιλέξατε προηγουμένως. Παρακαλώ επιλέξτε ένα νέο ποσό."
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Express checkout",
+        "or": "Ή"
+      },
+      "alternative_payment_method": {
+        "button_html": "Ολοκλήρωση παραγγελίας: {{ method }}",
+        "button_label": "Ολοκλήρωση παραγγελίας: {{ method }}"
+      },
+      "paypal": {
+        "button_html": "Ολοκλήρωση παραγγελίας {{ logo }}"
+      },
+      "apple_pay": {
+        "button_html": "Αγορά με {{ logo }}"
+      },
+      "processing": {
+        "redirecting_page_title": "Ανακατεύθυνση...",
+        "redirecting_title": "Ανακατεύθυνση...",
+        "redirecting_notice": "Παρακαλώ περιμένετε.",
+        "complete_your_purchase_title": "Ολοκληρώστε την αγορά σας",
+        "continue_to_payment_gateway_notice": "Συνεχίστε στην πληρωμή για να εισάγετε τα στοιχεία πληρωμής σας.",
+        "continue_to_payment_gateway_button_label": "Συνεχίστε στην πληρωμή",
+        "complete_your_purchase_title_error": "Διορθώστε τα στοιχεία πληρωμής σας",
+        "continue_to_payment_gateway_notice_error": "Τα στοιχεία πληρωμής σας περιέχουν σφάλματα. Επιστρέψετε στην πληρωμή για να τα διορθώσετε.",
+        "continue_to_payment_gateway_button_label_error": "Επιστροφή στην πληρωμή",
+        "page_title": "Επεξεργασία παραγγελίας",
+        "title": "Επεξεργασία παραγγελίας",
+        "your_order_has_been_received_title": "Η παραγγελία σας έχει παραληφθεί",
+        "you_will_receive_confirmation": "Θα λάβετε σύντομα email επιβεβαίωσης.",
+        "wait": {
+          "short": "Γίνεται επεξεργασία της παραγγελίας σας.",
+          "long": "Θα λάβετε email μόλις η παραγγελία σας διεκπεραιώθει. Υπάρχει μεγάλος όγκος παραγγελιών.",
+          "no_auto_refresh_html": "Εάν δεν μεταφερθείτε αυτόματα, {{ link }}.",
+          "refresh_this_page": "ανανεώστε τη σελίδα",
+          "medium": {
+            "one": "Επεξεργασία της παραγγελίας σας. Εκτιμώμενος χρόνος αναμονής είναι 1 λεπτό.",
+            "other": "Επεξεργασία της παραγγελίας σας. Εκτιμώμενος χρόνος αναμονής είναι {{ count }} λεπτά."
+          }
+        }
+      },
+      "payment_gateway": {
+        "credit_card_label": "Πιστωτική κάρτα",
+        "bank_deposit_label": "Κατάθεση σε τραπεζικό λογαριασμό",
+        "cash_on_delivery_label": "Αντικαταβολή",
+        "money_order_label": "Έμβασμα"
+      },
+      "newsletter": {
+        "subscription_checkbox_label": "Εγγραφείτε στο newsletter μας"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Θέλω να ενημερώνομαι για νέα και αποκλειστικές προσφορές",
+        "unsubscribe": {
+          "title": "Έχετε διαγραφεί",
+          "description": "Δεν θα λαμβάνετε υπενθυμίσεις καλαθιού από εμάς."
+        }
+      },
+      "shop_policies": {
+        "refund_policy": "Πολιτική επιστροφής",
+        "privacy_policy": "Πολιτική προστασίας προσωπικών δεδομένων",
+        "terms_of_service": "Όροι χρήσης",
+        "legal_notice": "Νομική Σημείωση",
+        "shipping_policy": "Πολιτική αποστολής",
+        "terms_of_sale": "Όροι πώλησης"
+      },
+      "remember_me": {
+        "shopify_pay_label": "Shopify Pay",
+        "authorize_purchase": "Εξουσιοδότηση αγοράς",
+        "save": "Αποθήκευση",
+        "title": "Να με θυμάσαι",
+        "experiment_title": "Να με θυμάσαι σε αυτή τη συσκευή",
+        "label": "Αποθήκευση των πληροφοριών μου για ταχύτερη ολοκλήρωση της αγοράς",
+        "mobile_phone_icon_alt": "Κινητό τηλέφωνο",
+        "mobile_phone_number": "Αριθμός κινητού τηλεφώνου",
+        "terms_and_privacy_html": "Συνεχίζοντας, συμφωνείτε με την <a class=\"link--muted\" data-modal data-remember-policy-link=\"privacy_policy\" title=\"Shopify Pay Privacy Policy\" href=\"{{ privacy_href }}\">πολιτική απορρήτου<\/a> και τους <a class=\"link--muted\" data-modal data-remember-policy-link=\"terms\" title=\"Shopify Pay Terms of Service\" href=\"{{ terms_href }}\">όρους χρήσης<\/a> του Shopify Pay",
+        "modal": {
+          "guest": {
+            "paragraph": "Εισαγάγετε τον κωδικό που στάλθηκε στο {{ phone }} για να χρησιμοποιήσετε με ασφάλεια τα αποθηκευμένα σας στοιχεία.",
+            "paragraph_aria": "Για να ελέγξετε με τα αποθηκευμένα σας στοιχεία, εισαγάγετε τον κωδικό επαλήθευσης που αποστέλλεται στον αριθμό κινητού τηλεφώνου που τελειώνει με: {{ phone }}.",
+            "title": "Γρήγορη ολοκλήρωση παραγγελίας"
+          },
+          "accelerated": {
+            "title": "Πληκτρολογήστε τον κωδικό επαλήθευσης",
+            "paragraph": "Για να ολοκληρώσετε την αγορά σας, εισαγάγετε τον κωδικό που στάλθηκε στο {{ phone }}."
+          },
+          "verification_code_label": "Κωδικός επαλήθευσης",
+          "footer": "Powered by Shopify Pay",
+          "fill_manually": "Κλείσιμο",
+          "code_sending": "Αποστολή κωδικού...",
+          "code_sent": "Ο κωδικός εστάλει",
+          "resend_code": "Επανάληψη αποστολής κωδικού",
+          "errors": {
+            "enter_valid_code": "Ο κωδικός που πληκτρολογήσατε είναι εσφαλμένος",
+            "enter_a_code": "Εισαγάγετε έναν έγκυρο κωδικό επαλήθευσης",
+            "code_not_received": {
+              "body": "Δεν δουλεύει;",
+              "contact_information_step": {
+                "link": "Συνεχίστε με την κανονική ολοκλήρωση της παραγγελίας"
+              },
+              "payment_information_step": {
+                "link": "Εισάγετε τα στοιχεία της κάρτας"
+              }
+            },
+            "server": {
+              "title": "Το Shopify Pay δεν είναι διαθέσιμο",
+              "body": "Οι αποθηκευμένες πληροφορίες σας δεν μπορούν να χρησιμοποιηθούν για αυτήν την αγορά. Παρακαλούμε συνεχίστε με την κανονική ολοκλήρωση της παραγγελίας."
+            },
+            "throttle": {
+              "title": "Υπέρβαση ορίου προσπαθειών",
+              "body": "Ο κωδικός σας εισήχθη εσφαλμένα πάρα πολλές φορές. Παρακαλούμε να συνεχίσει με την κανονική ολοκλήρωση της παραγγελίας."
+            },
+            "authorize": {
+              "title": "Shopify Pay δεν είναι διαθέσιμο",
+              "body": "Οι αποθηκευμένες πληροφορίες σας δεν μπορούν να χρησιμοποιηθούν προς το παρόν. Καταχωρίστε τα στοιχεία πληρωμής για να συνεχίσετε.",
+              "link": "Εισάγετε τα στοιχεία πληρωμής"
+            },
+            "shipping_address": {
+              "title": "Δεν είναι δυνατή η αποστολή στην περιοχή σας",
+              "body": "Οι πληροφορίες που αποθηκεύσατε με το Shopify Pay δεν μπορούν να χρησιμοποιηθούν για αυτήν την αγορά. Παρακαλούμε να συνεχίσει με την κανονική ολοκλήρωση της παραγγελίας."
+            }
+          }
+        },
+        "description_html": "Την επόμενη φορά που θα ολοκληρώσετε την παραγγελία σας εδώ ή σε άλλα καταστήματα που τροφοδοτούνται από το Shopify, θα λάβετε έναν κωδικό μέσω SMS για ασφαλή αγορά με Shopify Pay."
+      },
+      "notifications": {
+        "title": "Ειδοποιήσεις"
+      }
+    },
+    "dates": {
+      "month_names": {
+        "january": "Ιανουάριος",
+        "february": "Φεβρουάριος",
+        "march": "Μάρτιος",
+        "april": "Απρίλιος",
+        "may": "Μάιος",
+        "june": "Ιούνιος",
+        "july": "Ιούλιος",
+        "august": "Αύγουστος",
+        "september": "Σεπτέμβριος",
+        "october": "Οκτώβριος",
+        "november": "Νοέμβριος",
+        "december": "Δεκέμβριος"
+      },
+      "abbr_month_names": {
+        "january": "Ιαν",
+        "february": "Φεβ",
+        "march": "Μαρ",
+        "april": "Απρ",
+        "may": "Μαι",
+        "june": "Ιουν",
+        "july": "Ιουλ",
+        "august": "Αυγ",
+        "september": "Σεπ",
+        "october": "Οκτ",
+        "november": "Νοε",
+        "december": "Δεκ"
+      },
+      "day_names": {
+        "sunday": "Κυριακή",
+        "monday": "Δευτέρα",
+        "tuesday": "Τρίτη",
+        "wednesday": "Τετάρτη",
+        "thursday": "Πέμπτη",
+        "friday": "Παρασκευή",
+        "saturday": "Σάββατο"
+      },
+      "abbr_day_names": {
+        "sunday": "Κυρ",
+        "monday": "Δευ",
+        "tuesday": "Τρι",
+        "wednesday": "Τετ",
+        "thursday": "Πεμ",
+        "friday": "Παρ",
+        "saturday": "Σαβ"
+      },
+      "am": "πμ",
+      "pm": "μμ",
+      "formats": {
+        "default": "%a, %d %b %Y %H:%M:%S %z",
+        "long": "%B %d, %Y %H:%M",
+        "short": "%d %b %H:%M",
+        "month_day": "%B %-d"
+      }
+    },
+    "sentence": {
+      "words_connector": ",",
+      "two_words_connector": "και",
+      "last_word_connector": ", και"
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Σφάλμα επαναφοράς κωδικού πρόσβασης",
+        "no_account_found": "Δεν βρέθηκε λογαριασμός με αυτό το email.",
+        "invalid_credentials": "Μη έγκυρα διαπιστευτήρια σύνδεσης."
+      },
+      "address": {
+        "updated": "Η διεύθυνση σας ενημερώθηκε επιτυχώς.",
+        "error_updating": "Σφάλμα κατά την ενημέρωση της διεύθυνσης",
+        "created": "Η διεύθυνση δημιουργήθηκε με επιτυχία",
+        "error_creating": "Σφάλμα κατά τη δημιουργία της διεύθυνσης.",
+        "deleted": "Η διεύθυνση διαγράφηκε επιτυχώς",
+        "error_deleting": "Σφάλμα κατά τη διαγραφή της διεύθυνσης."
+      },
+      "order": {
+        "not_available": "Αυτή η παραγγελία δεν είναι διαθέσιμη",
+        "financial_status": {
+          "authorized": "Εγκεκριμένο",
+          "pending": "Εν αναμονή",
+          "paid": "Εξοφλήθη",
+          "unpaid": "Απλήρωτη",
+          "voided": "Ακυρωμένη",
+          "partially_paid": "Μερικώς εξοφλημένη",
+          "partially_refunded": "Μερική επιστροφή χρημάτων",
+          "refunded": "Επιστροφή χρημάτων"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Εκπληρωμένη",
+          "complete": "Ολοκληρωμένη",
+          "partial": "Μερικώς",
+          "unfulfilled": "Ανεκπλήρωτη",
+          "restocked": "Ανανέωση των αποθεμάτων"
+        },
+        "transaction_status": {
+          "success": "Επιτυχία",
+          "pending": "Σε εκκρεμότητα",
+          "failure": "Αποτυχία",
+          "error": "Σφάλμα"
+        },
+        "cancel_reason": {
+          "declined": "Η πληρωμή απορρίφθηκε",
+          "inventory": "Μη διαθέσιμα αντικείμενα",
+          "fraud": "Δόλια παραγγελία",
+          "customer": "Αλλαγή\/Ακύρωση παραγγελίας πελάτη",
+          "other": "Άλλο"
+        }
+      },
+      "cart": {
+        "only_n_items_available": "Μπορείτε να προσθέσετε μόνο {{ count }} {{ name }} στο καλάθι.",
+        "all_items_in_cart": "Όλα τα {{ count }} {{ name }} είναι στο καλάθι σας.",
+        "empty_update": "δεν είναι δυνατή η ενημέρωση σε άδειο καλάθι",
+        "missing_parameters": "μη έγκυρο αναγνωριστικό",
+        "generic_error": "Σφάλμα στο καλάθι",
+        "too_many_line_items_error": "Το καλάθι σας δεν μπορεί να περιέχει περισσότερα από {{ max }} προϊόντα.",
+        "link_expired": "Ο σύνδεσμος έχει λήξει",
+        "link_no_longer_exists": "Η σύνδεση δεν υπάρχει πια.",
+        "stock_problems_html": "Ένα ή περισσότερα προϊόντα δεν είναι πλέον διαθέσιμα. Παραθέτουμε ένα <a href='{{ link }}'> ενημέρωμενο καλάθι<\/a>.",
+        "changed": "Το καλάθι άλλαξε",
+        "items_changed": "Ένα ή περισσότερα προϊόντα έχουν αλλάξει.",
+        "product_sold_out": "Το προϊόν '{{ name }}' εξαντλήθηκε.",
+        "variant_not_found": "Δεν βρέθηκε η παραλλαγή",
+        "shipping_address_not_required": "Αυτό το καλάθι δεν επιβαρύνεται με έξοδα αποστολής",
+        "shipping_address_invalid": "Μη έγκυρη διεύθυνση αποστολής"
+      },
+      "storefront": {
+        "invalid_password": "Λανθασμένος κωδικό πρόσβασης, παρακαλούμε προσπαθήστε ξανά."
+      }
+    },
+    "page_titles": {
+      "products": "Προϊόντα",
+      "shopping_cart": "Το καλάθι αγορών σας",
+      "account": "Λογαριασμός",
+      "create_account": "Δημιουργία λογαριασμού",
+      "reset_account": "Επαναφορά του λογαριασμού",
+      "addresses": "Διευθύνσεις",
+      "order": "Παραγγελία {{ name }}",
+      "search": "Αναζήτηση",
+      "collections": "Συλλογές",
+      "not_found": "404 δεν βρέθηκε",
+      "challenge": "Πρόκληση"
+    },
+    "cart": {
+      "discounts_with_count": "{{ count }} εκπτώσεις έχουν εφαρμοστεί"
+    },
+    "challenge": {
+      "message": "Για να συνεχίσετε, αποδείξετε πως δεν είστε ρομπότ.",
+      "error": "Η απάντησή σας δεν ήταν σωστή, δοκιμάστε ξανά.",
+      "submit_button_text": "Υποβολή"
+    },
+    "pagination": {
+      "previous": "Προηγούμενο",
+      "next": "Επόμενο"
+    },
+    "links": {
+      "powered_by_shopify": "Powered by Shopify",
+      "learn_more": "Μάθε περισσότερα"
+    },
+    "attributes": {
+      "email": "email",
+      "password": "κωδικός πρόσβασης",
+      "password_confirmation": "Επιβεβαίωση του κωδικού πρόσβασης",
+      "first_name": "όνομα",
+      "last_name": "επίθετο",
+      "body": "κείμενο"
+    },
+    "feed": {
+      "more": "Περισσότερα"
+    },
+    "addresses": {
+      "zip_code": "Ταχυδρομικός κώδικας",
+      "postal_code": "Ταχυδρομικός κώδικας",
+      "postcode": "Ταχυδρομικός κώδικας",
+      "pincode": "Κωδικός PIN",
+      "region": "Περιοχή",
+      "prefecture": "Νομός",
+      "province": "Επαρχία",
+      "state": "Πολιτεία",
+      "state_and_territory": "Πολιτεία\/επικράτεια",
+      "county": "Κομητεία",
+      "confirm": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή τη διεύθυνση;"
+    },
+    "errors": {
+      "blank": "δεν μπορεί να είναι κενό",
+      "credit_card_session_expired": "Η πιστωτική κάρτα σας έχει λήξει, παρακαλώ εισάγετε τα στοιχεία πληρωμής σας ξανά. Δεν έχει χρεωθεί η κάρτα σας.",
+      "empty": "δεν μπορεί να είναι κενό",
+      "invalid_email": "πρέπει να είναι μια έγκυρη διεύθυνση email",
+      "discount_disabled": "Αυτή η έκπτωση έχει απενεργοποιηθεί",
+      "discount_expired": "Αυτή η έκπτωση δεν ισχύει πια",
+      "discount_limit_reached": "Αυτή η έκπτωση έχει φτάσει το όριο χρήσης",
+      "discount_not_found": "Ο κωδικός που πληκτρολογήσατε δεν ταιριάζει σε καμία έγκυρη έκπτωση",
+      "customer_already_used_once_per_customer_discount_notice": "Αυτή η έκπτωση έχει φτάσει το όριο χρήσης",
+      "gift_card_already_applied": "Ο κωδικός έχει ήδη εφαρμοστεί στη σελίδα πληρωμής σας",
+      "gift_card_code_invalid": "Ο κωδικός δεν είναι έγκυρος",
+      "gift_card_depleted": "Δεν υπάρχει διαθέσιμο υπόλοιπο σε αυτή την δωροκάρτα",
+      "gift_card_disabled": "Η δωροκάρτα είναι απενεργοποιημένη",
+      "gift_card_expired": "Η δωροκάρτα έχει λήξει",
+      "invalid": "δεν είναι έγκυρη",
+      "taken": "έχει ήδη ληφθεί",
+      "contains_html_tags": "δεν είναι δυνατό να περιέχουν HTML tags",
+      "too_short": "πολύ σύντομη (ελάχιστες χαρακτήρες {{ count }})",
+      "too_long": "πολύ μεγάλη (ανώτατο όριο χαρακτήρων {{ count }})",
+      "password_mismatch": "πρέπει να ταιριάζει με τον κωδικό πρόσβασης.",
+      "contains_spaces": "αρχίζει ή τελειώνει με κενά διαστήματα.",
+      "email_domain_invalid": "δεν υποστηρίζεται η υπηρεσία παροχής",
+      "invalid_for_country": "δεν είναι έγκυρη για {{ country }}",
+      "invalid_for_country_and_province": "δεν είναι έγκυρη για {{ province }} και {{ country }}",
+      "invalid_province_in_country": "δεν είναι έγκυρη επαρχία για την {{ country }}",
+      "invalid_state_in_country": "δεν είναι έγκυρη πολιτεία για την {{ country }}",
+      "invalid_region_in_country": "δεν είναι έγκυρη περιοχή για την {{ country }}",
+      "less_than_or_equal_to": "πρέπει να είναι μικρότερη ή ίση με {{ count }}",
+      "not_supported": "δεν υποστηρίζεται",
+      "full_name_required": "Παρακαλώ εισάγετε ένα έγκυρο όνομα.",
+      "invalid_for_card_type": "δεν είναι έγκυρη",
+      "invalid_type": "Συγγνώμη, δεν δεχόμαστε κάρτες αυτού του τύπου",
+      "invalid_format": "η μορφή δεν είναι έγκυρη",
+      "expired": "έχει λήξει",
+      "invalid_start_date_or_issue_number_for_debit": "απαιτείται μια έγκυρη ημερομηνία έναρξης ή αριθμό έκδοσης",
+      "invalid_expiry_year": "μη έγκυρο έτος λήξης",
+      "reset_password_html": "Αυτό το email είναι ήδη συσχετισμένο με ένα λογαριασμό. Εάν αυτός ο λογαριασμός είναι δικός σας, μπορείτε να <a href=\"\/account\/login#recover\"> επαναφέρετε τον κωδικό πρόσβασής σας<\/a>",
+      "verify_email": "Έχουμε στείλει ένα email στο {{ customer_email }}, κάντε κλικ στο σύνδεσμο που περιλαμβάνεται για να επαληθεύσετε το email σας.",
+      "gift_card_currency_mismatch": "{{ gift_card_currency }} δωροκάρτες δεν μπορούν να εφαρμοστούν σε {{ checkout_currency }} παραγγελίες"
     }
   }
 }
