@@ -614,7 +614,7 @@ html[xmlns] .slides {display: block;}
 .site-footer { padding: 37px 0 110px; letter-spacing: 0.02em; }
 .site-footer a:hover { text-decoration: none; }
 .payment-methods {list-style: none; margin: 0;padding: 0;}
-.payment-methods li {padding: 0 20px 0 0;;margin: 0;display: inline-block;cursor: pointer;}
+.payment-methods li {padding: 0 10px 0 0;;margin: 0;display: inline-block;cursor: pointer;}
 .footer-newsletter { clear:both; padding-top: 25px; }
 .newsletter .block-title span {text-align: center; }
 .newsletter .block-content { min-height: 56px; margin: 0 auto; width: 100%; position: relative;}
@@ -1116,14 +1116,18 @@ label[for="productSelect"] {margin-bottom: 10px;}
 /* create an account */
 .create-an-account p.title { color:#323232; border:1px solid #eaeaea; border-width: 1px 0; padding: 16px 0; margin-bottom: 26px; }
 #create_customer label {display: block; padding-bottom: 5px;}
-#create_customer input {display: block; margin-bottom: 15px; min-width: 200px; width: 380px ;}
+#create_customer input[type="text"],
+#create_customer input[type="password"],
+#create_customer input[type="email"] {display: block; margin-bottom: 15px; min-width: 200px; width: 380px ;}
 #create_customer .action-btn { padding-top:5px; }
 #create_customer .action-btn input { min-width: 0px; width: auto;}
 
 /* login page */
 #customer_login .page-header h1 { text-align: center; font-size: 14px; background: #fafafa; border: 1px solid #eaeaea; border-width: 1px 0; padding: 15px 0 13px; }
 #customer_login label {display: block; }
-#customer_login input {display: block; margin-bottom: 15px; min-width: 200px; width: 380px;}
+#customer_login input[type="text"],
+#customer_login input[type="password"],
+#customer_login input[type="email"] {display: block; margin-bottom: 15px; min-width: 200px; width: 380px;}
 #customer_login .action-btn { margin-bottom: 50px; margin-top: 20px;}
 #customer_login .action-btn input { min-width: 0px; width: auto; margin-bottom: 24px; }
 #customer_login .action-btn p.last span { color: #404e53; font-style: italic; padding: 0 3px; }

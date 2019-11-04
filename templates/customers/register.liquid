@@ -46,6 +46,12 @@
     <label for="password"><span {% if settings.enable_multilang %}data-translate="customer.register.password"{%endif%}>{{ 'customer.register.password' | t }}</span><em>*</em></label>
     <input type="password" value="" name="customer[password]" id="create_password" {% if form.errors contains "password" %}class="error"{% endif %}>
   </div>
+  <div class="checkbox">
+	  <label for="registerTerms">
+    	<input type="checkbox" id="registerTerms" name="register[terms]" required />
+	    <span {% if settings.enable_multilang %}data-translate="customer.register.terms_html"{%endif%}>{{ 'customer.register.terms_html' | t }}</span>
+	  </label>
+  </div>
   
   <div class="action-btn">
     <p><input type="submit" {% if settings.enable_multilang %}data-translate="customer.register.submit"{%endif%} value="{{ 'customer.register.submit' | t }}" class="btn"></p>

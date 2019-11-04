@@ -73,7 +73,7 @@
               {%- assign display_current_method = method | prepend: 'payment_display_' -%}
               {% if section.settings[display_current_method] %}
                 {%- assign current_method_icon = method | prepend: 'icon_' -%}
-                <li><img src="{{ section.settings[current_method_icon] | img_url: '66x22' }}" alt="{{ method }}"></li>
+                <li><img src="{{ section.settings[current_method_icon] | img_url: '32x32' }}" alt="{{ method }}" title="{{ method }}"></li>
               {% endif %}
             {% endfor %}
           </ul>

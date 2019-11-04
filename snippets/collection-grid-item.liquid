@@ -37,8 +37,10 @@
         {% endif %}
       </h3>
       <p class="count-products" {% if settings.enable_multilang %}data-translate="collections.general.items_with_count|count:{{collection.all_products_count}}"{% endif %}>{{ 'collections.general.items_with_count' | t: count: collection.all_products_count }}</p>
+      {% comment %}
       <p class="desc">{{ collection.description | strip_html | truncatewords: 14 }}</p>
       <p><a href="{{ collection.url }}" class="btn" {% if settings.enable_multilang %}data-translate="collections.general.shop_the_collection"{% endif %}>{{ 'collections.general.shop_the_collection' | t }}</a></p>
+      {% endcomment %}
     </div>
   </div>
 </div>

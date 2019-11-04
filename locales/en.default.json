@@ -277,7 +277,8 @@
       "email": "Email",
       "password": "Password",
       "submit": "Create an account",
-      "cancel": "Return to Store"
+      "cancel": "Return to Store",
+      "terms_html": "I have read and accept the <a href=\"\/pages\/terms-of-use\" target=\"_blank\">terms of use<\/a>"
     },
     "form": {
       "error_message": "Sorry, looks like something went wrong. Please correct the following and submit again:"

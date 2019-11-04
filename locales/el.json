@@ -20,7 +20,7 @@
       "submit": "ΕΓΓΡΑΦΗ",
       "newsletter_text": "Συμπληρώστε το email σας",
       "confirmation": "Thanks for subscribing",
-      "newsletter_terms_html": "Έχω διαβάσει και αποδέχομαι <a href=\"\/pages\/terms-of-use\" target=\"_blank\">τους όρους συναλλαγών<\/a>"
+      "newsletter_terms_html": "Έχω διαβάσει και αποδέχομαι την <a href=\"\/pages\/privacy-policy\" target=\"_blank\">πολιτική απορρήτου<\/a>"
     },
     "search": {
       "no_results_html": "Η ΑΝΑΖΗΤΗΣΗ ΣΑΣ ΓΙΑ \"{{ terms }}\" ΔΕΝ ΕΠΙΣΤΡΕΦΕΙ ΑΠΟΤΕΛΕΣΜΑΤΑ.",
@@ -224,7 +224,9 @@
       "login": "ΣΥΝΔΕΣΗ",
       "cancel": "Επιστροφή στο Κατάστημα",
       "guest_title": "Συνεχίστε ως επισκέπτης",
-      "guest_continue": "Συνέχεια"
+      "guest_continue": "Συνέχεια",
+      "terms": "Έχω διαβάσει και αποδέχομαι την <a href=\"\/pages\/privacy-policy\" target=\"_blank\">πολιτική απορρήτου<\/a>",
+      "terms_html": "Έχω διαβάσει και αποδέχομαι την <a href=\"\/pages\/privacy-policy\" target=\"_blank\">πολιτική απορρήτου<\/a>"
     },
     "orders": {
       "title": "ΙΣΤΟΡΙΚΟ ΠΑΡΑΓΓΕΛΙΩΝ",
@@ -277,7 +279,8 @@
       "email": "Email",
       "password": "Κωδικός πρόσβασης",
       "submit": "Δημιουργία λογαριασμού",
-      "cancel": "Επιστροφή στο κατάστημα"
+      "cancel": "Επιστροφή στο κατάστημα",
+      "terms_html": "Έχω διαβάσει και αποδέχομαι την <a href=\"\/pages\/privacy-policy\" target=\"_blank\">πολιτική απορρήτου<\/a>"
     },
     "form": {
       "error_message": "Συγνώμη, κάτι πήγε στραβά. Διορθώστε τα ακόλουθα και υποβάλετε εκ νέου:"
@@ -569,7 +572,8 @@
         "gift_card_has_been_applied": "Δωροκάρτα έχει εφαρμοστεί",
         "gift_card_has_been_removed": "Δωροκάρτα έχει αφαιρεθεί",
         "discount_already_applied": "Έχει εφαρμοστεί έκπτωση σε αυτήν την παραγγελία. Δεν μπορείτε να προσθέσετε άλλη έκπτωση.",
-        "scroll_order_summary": "Κύλιση για περισσότερα στοιχεία"
+        "scroll_order_summary": "Κύλιση για περισσότερα στοιχεία",
+        "shipping_default_value": "Υπολογισμός στην επόμενη σελίδα"
       },
       "shipping": {
         "title": "Τρόπος αποστολής",

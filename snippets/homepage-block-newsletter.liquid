@@ -1,43 +1,107 @@
 <section class="newsletter">
   <div class="block-content">
-
     <!-- Begin Mailchimp Signup Form -->
     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
     <style type="text/css">
-    #mc_embed_signup{background:transparent; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-    #mc_embed_signup form{text-align: left;font-size:12px;}
-    #mc_embed_signup input.email{width: 300px;background-color:transparent; border: 1px solid #282828;border-radius:0;height:36px;}
-    
+      #mc_embed_signup {
+        background: transparent;
+        clear: left;
+        font: 14px Helvetica, Arial, sans-serif;
+        width: 100%;
+      }
 
-    #mc_embed_signup .button{background:#282828;color:#c6ad88;font-size:11px;border-radius:0;height:36px;letter-spacing: 0.05em;font-weight: 700;}
-    #mc_embed_signup .button:hover{background-color:#000;}
-    #mc_embed_signup label{font-size:inherit;padding-bottom:0;font-weight:normal;}
-    
-    ::-webkit-input-placeholder{color: rgba(0,0,0,.4);}
-    ::-moz-placeholder{color: rgba(0,0,0,.4);}
-    :-ms-input-placeholder{color: rgba(0,0,0,.4);}
-    :-moz-placeholder {color: rgba(0,0,0,.4);}
-  </style>
-  <div id="mc_embed_signup">
-    <form action="https://facebook.us11.list-manage.com/subscribe/post?u=5e98966a3db8032a2cea37afe&amp;id=7f113e33db" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-      <div id="mc_embed_signup_scroll">
+      #mc_embed_signup form {
+        text-align: left;
+        font-size: 12px;
+      }
 
-        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="{{ 'general.newsletter_form.newsletter_text' | t }}" required>
-        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5e98966a3db8032a2cea37afe_7f113e33db" tabindex="-1" value=""></div>
-        <div class="clear"><input type="submit" value="{{ 'general.newsletter_form.submit' | t }}" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-      </div>
-      <div class="mc-field-group input-group checkbox">
-        <label for="mce-group[22241]-22241-0">
-          <input type="checkbox" value="1" name="group[22241][1]" id="mce-group[22241]-22241-0" required>
-          {{ 'general.newsletter_form.newsletter_terms_html' | t }}
-        </label>
-      </div>
-    </form>
+      #mc_embed_signup input.email {
+        width: 300px;
+        background-color: transparent;
+        border: 1px solid #282828;
+        border-radius: 0;
+        height: 36px;
+      }
+
+
+      #mc_embed_signup .button {
+        background: #282828;
+        color: #c6ad88;
+        font-size: 11px;
+        border-radius: 0;
+        height: 36px;
+        letter-spacing: 0.05em;
+        font-weight: 700;
+      }
+
+      #mc_embed_signup .button:hover {
+        background-color: #000;
+      }
+
+      #mc_embed_signup label {
+        font-size: inherit;
+        padding-bottom: 0;
+        font-weight: normal;
+      }
+
+      @media (max-width: 768px) {
+        #mc_embed_signup .button {
+          width: auto;
+        }
+
+        #mc_embed_signup input.email {
+          width: 275px;
+          margin: 0;
+        }
+
+        #mc_embed_signup .clear {
+          display: inline-block;
+          width: auto;
+        }
+      }
+
+      ::-webkit-input-placeholder {
+        color: rgba(0, 0, 0, .4);
+      }
+
+      ::-moz-placeholder {
+        color: rgba(0, 0, 0, .4);
+      }
+
+      :-ms-input-placeholder {
+        color: rgba(0, 0, 0, .4);
+      }
+
+      :-moz-placeholder {
+        color: rgba(0, 0, 0, .4);
+      }
+    </style>
+    <div id="mc_embed_signup">
+      <form action="https://facebook.us11.list-manage.com/subscribe/post?u=5e98966a3db8032a2cea37afe&amp;id=7f113e33db"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+        target="_blank">
+        <div id="mc_embed_signup_scroll">
+
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"
+            placeholder="{{ 'general.newsletter_form.newsletter_text' | t }}" required>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+              name="b_5e98966a3db8032a2cea37afe_7f113e33db" tabindex="-1" value=""></div>
+          <div class="clear"><input type="submit" value="{{ 'general.newsletter_form.submit' | t }}" name="subscribe"
+              id="mc-embedded-subscribe" class="button"></div>
+        </div>
+        <div class="mc-field-group input-group checkbox">
+          <label for="mce-group[22241]-22241-0">
+            <input type="checkbox" value="1" name="group[22241][1]" id="mce-group[22241]-22241-0" required>
+            {{ 'general.newsletter_form.newsletter_terms_html' | t }}
+          </label>
+        </div>
+      </form>
+    </div>
+    <!--End mc_embed_signup-->
+
+    {% comment %}
+      {% include 'newsletter-form'%}
+    {% endcomment %}
   </div>
-
-  <!--End mc_embed_signup-->
-
-  {% comment %}{% include 'newsletter-form'%}{% endcomment %}
-</div>
 </section>
