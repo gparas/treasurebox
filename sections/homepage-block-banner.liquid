@@ -53,7 +53,7 @@
     "name": "Hompage Block Banner",
  	"class": "index-section",
     "settings": [
-	{
+	   {
         "type": "checkbox",
         "id": "display_banner",
         "label": "Block Banner Home Page?",
@@ -95,6 +95,13 @@
         "id": "banner_text_title_color",
         "label": "Title Color",
         "default": "#000"
+      },
+      {
+        "type": "text",
+        "id": "banner_text_title_size",
+        "label": "Title Font Size",
+        "default": "20",
+        "info": "Default Value: 20"
       },
       {
         "type": "textarea",
@@ -148,7 +155,7 @@
     .banner img { display: none; }
     .banner .inner{padding: 100px 0;position: relative;}
   }
-  .banner h2 span { color: {{ section.settings.banner_text_title_color }}; }
+  .banner h2 { color: {{ section.settings.banner_text_title_color }}; font-size: {{ section.settings.banner_text_title_size }}px;}
   .banner p.line { background: {{ section.settings.banner_text_title_color }}; }
   .banner p.text-center span { color: {{ section.settings.banner_text_description_color }}; }
 </style>
